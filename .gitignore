@@ -1,0 +1,22 @@
+.DS_Store
+**/.DS_Store
+Archive.zip
+Productos V2/
+.v2-cleanup.txt
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+
+# Unused WordPress size variants / assets not referenced by catalog
+Productos/NAGY-*
+Productos/*-150x150.*
+Productos/Categorias-*
+Productos/BG-SomosFruit*
+Productos/Somos-Fruit*
+Productos/Favicon-*
+Productos/CR-SF.svg
+Productos/SF-BG.svg
+Productos/SOSTE-SF.svg
+Productos/*.csv

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre nosotros — Somos Fruit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sobre-nosotros.css" />
+  </head>
+  <body>
+    <header class="site-header site-header--minimal">
+      <nav class="nav" aria-label="Principal">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
+          </a>
+          <a href="contacto.html" class="nav__cta btn btn--primary">
+            Hacer pedido
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <button
+            type="button"
+            class="nav__toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Abrir menú"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav__links" id="nav-menu">
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="sobre-nosotros.html" class="is-active">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="nav__links-cta">
+              <a href="contacto.html" class="btn btn--primary nav__cta-mobile">
+                Hacer pedido
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="about-page">
+      <section class="about-intro">
+        <div class="about-intro__container">
+          <div class="about-intro__content animate-on-scroll">
+            <span class="about-intro__label">SOBRE NOSOTROS</span>
+            <h1 class="about-intro__title">Somos Fruit</h1>
+            <p class="about-intro__lead">
+              Aliado estratégico en abastecimiento para restaurantes, hoteles y servicios de alimentación en Costa Rica.
+            </p>
+          </div>
+          <div class="about-intro__image animate-on-scroll">
+            <img
+              src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&h=600&fit=crop&q=80"
+              alt="Productos frescos del campo"
+              width="800"
+              height="600"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="about-pillars" aria-labelledby="pillars-heading">
+        <div class="about-pillars__container">
+          <h2 id="pillars-heading" class="visually-hidden">Misión y visión</h2>
+          <div class="pillar-card animate-on-scroll">
+            <span class="pillar-card__label">Misión</span>
+            <p class="pillar-card__text">
+              Satisfacer las necesidades de abastecimiento de restaurantes, hoteles y servicios de alimentación, ofreciendo una amplia variedad de productos nacionales e importados con altos estándares de calidad, respaldados por un servicio excepcional, logística eficiente y un compromiso genuino con el éxito de nuestros clientes.
+            </p>
+          </div>
+          <div class="pillar-card pillar-card--vision animate-on-scroll">
+            <span class="pillar-card__label">Visión</span>
+            <p class="pillar-card__text">
+              Ser el aliado estratégico líder del sector gastronómico, brindando soluciones integrales de abastecimiento que combinen calidad, frescura, innovación y excelencia en el servicio, contribuyendo al crecimiento y éxito de nuestros clientes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-why" aria-labelledby="why-heading">
+        <div class="about-why__container">
+          <h2 id="why-heading" class="about-why__title animate-on-scroll">¿Por qué elegir Somos Fruit?</h2>
+
+          <p class="about-why__lead animate-on-scroll">
+            Porque detrás de cada producto hay una historia de esfuerzo, dedicación y compromiso.
+          </p>
+
+          <div class="about-why__grid">
+            <div class="about-why__block animate-on-scroll">
+              <p>
+                En Somos Fruit apoyamos a agricultores, emprendedores y productores costarricenses que comparten nuestra pasión por la calidad y la agricultura responsable.
+              </p>
+            </div>
+            <div class="about-why__block about-why__block--highlight animate-on-scroll">
+              <p>
+                Al elegirnos, no solo obtiene un proveedor confiable, sino también un aliado estratégico que simplifica sus procesos de abastecimiento, le brinda acceso a una amplia variedad de productos frescos y especializados, y le ayuda a mantener la calidad y continuidad que su operación necesita.
+              </p>
+            </div>
+            <div class="about-why__block animate-on-scroll">
+              <p>
+                De esta manera, contribuimos al desarrollo de cadenas de suministro responsables que generan valor para nuestros clientes, nuestros aliados y nuestras comunidades.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-ally" aria-labelledby="ally-heading">
+        <div class="about-ally__container">
+          <div class="about-ally__image animate-on-scroll">
+            <img
+              src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=600&fit=crop&q=80"
+              alt="Abastecimiento para el sector gastronómico"
+              width="800"
+              height="600"
+            />
+          </div>
+          <div class="about-ally__content">
+            <h2 id="ally-heading" class="about-ally__title animate-on-scroll">
+              Más que un proveedor, un aliado estratégico
+            </h2>
+            <p class="about-ally__text animate-on-scroll">
+              En Somos Fruit entendemos los desafíos diarios de restaurantes, hoteles y servicios de alimentación. Por eso no solo suministramos productos frescos; ofrecemos soluciones de abastecimiento que permiten a nuestros clientes concentrarse en lo más importante: brindar una experiencia excepcional a sus comensales.
+            </p>
+            <p class="about-ally__text animate-on-scroll">
+              Nuestro compromiso es garantizar calidad, frescura, variedad y un servicio confiable que aporte valor a cada operación.
+            </p>
+            <ul class="about-ally__list animate-on-scroll" aria-label="Nuestros compromisos">
+              <li>Calidad</li>
+              <li>Frescura</li>
+              <li>Variedad</li>
+              <li>Servicio confiable</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-cta">
+        <div class="about-cta__container animate-on-scroll">
+          <h2 class="about-cta__title">¿Listo para trabajar con nosotros?</h2>
+          <p class="about-cta__text">
+            Solicita tu cotización y descubre cómo podemos apoyar el abastecimiento de tu operación.
+          </p>
+          <div class="about-cta__actions">
+            <a href="productos.html" class="btn btn--primary btn--lg">
+              Ver productos
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="contacto.html" class="btn btn--outline btn--lg">
+              Contactar
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="footer__logo-img" />
+          </a>
+          <p class="footer__tagline">Fruta fresca, trato humano.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <p class="footer__heading">Enlaces</p>
+            <ul class="footer__links">
+              <li><a href="index.html#inicio">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__heading">Contacto</p>
+            <ul class="footer__links">
+              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
+              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
+              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
+              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos — Somos Fruit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="productos.css" />
+  </head>
+  <body>
+    <header class="site-header site-header--minimal">
+      <nav class="nav" aria-label="Principal">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
+          </a>
+          <a href="index.html#contacto" class="nav__cta btn btn--primary">
+            Hacer pedido
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <button
+            type="button"
+            class="nav__toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Abrir menú"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav__links" id="nav-menu">
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="productos.html" class="is-active">Productos</a></li>
+            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="nav__links-cta">
+              <a href="contacto.html" class="btn btn--primary nav__cta-mobile">
+                Hacer pedido
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="products-page">
+      <div class="products-page__container">
+        <aside class="products-sidebar" id="sidebar">
+          <div class="products-sidebar__header">
+            <h2 class="products-sidebar__title">Filtros</h2>
+            <button type="button" class="products-sidebar__close" id="close-sidebar" aria-label="Cerrar filtros">
+              ✕
+            </button>
+          </div>
+
+          <div class="products-sidebar__content">
+            <div class="filter-search">
+              <input
+                type="search"
+                id="search-input"
+                placeholder="¿Qué andas buscando?"
+                class="filter-search__input"
+              />
+            </div>
+
+            <div class="filter-group">
+              <h3 class="filter-group__title">Categoría</h3>
+              <div class="filter-group__options">
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="despensa" data-filter="categoria" />
+                  <span>Despensa y básicos</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="especiales" data-filter="categoria" />
+                  <span>Especiales y gourmet</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="frutas" data-filter="categoria" />
+                  <span>Frutas</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="hierbas" data-filter="categoria" />
+                  <span>Hierbas y aromáticas</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="hojas" data-filter="categoria" />
+                  <span>Hojas y lechugas</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="hongos" data-filter="categoria" />
+                  <span>Hongos</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="hongos-gourmet" data-filter="categoria" />
+                  <span>Hongos gourmet frescos</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="microgreens" data-filter="categoria" />
+                  <span>Microgreens</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="congelados" data-filter="categoria" />
+                  <span>Congelados</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="legumbres" data-filter="categoria" />
+                  <span>Legumbres y granos</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="tuberculos" data-filter="categoria" />
+                  <span>Tubérculos y raíces</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="verduras" data-filter="categoria" />
+                  <span>Verduras</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <h3 class="filter-group__title">Línea</h3>
+              <div class="filter-group__options">
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="premium" data-filter="linea" />
+                  <span>Premium</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" value="regular" data-filter="linea" />
+                  <span>Regular</span>
+                </label>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn--outline btn--full" id="clear-filters">
+              Limpiar filtros
+            </button>
+          </div>
+        </aside>
+
+        <section class="products-main">
+          <div class="products-header">
+            <div class="products-header__breadcrumb">
+              <a href="index.html">Inicio</a>
+              <span>/</span>
+              <span>Productos</span>
+            </div>
+            <h1 class="products-header__title">Nuestros productos</h1>
+            <div class="products-header__meta">
+              <p class="products-header__count">
+                Mostrando <strong id="product-count">24</strong> productos
+              </p>
+              <button type="button" class="btn btn--outline btn--sm" id="toggle-filters">
+                Filtros
+              </button>
+            </div>
+          </div>
+
+          <div class="products-grid" id="products-grid">
+            <!-- Products will be generated by JavaScript -->
+          </div>
+
+          <div class="products-empty" id="products-empty" style="display: none;">
+            <p>No se encontraron productos con los filtros seleccionados.</p>
+            <button type="button" class="btn btn--primary" id="clear-filters-empty">
+              Limpiar filtros
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="footer__logo-img" />
+          </a>
+          <p class="footer__tagline">Fruta fresca, trato humano.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <p class="footer__heading">Enlaces</p>
+            <ul class="footer__links">
+              <li><a href="index.html#inicio">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__heading">Contacto</p>
+            <ul class="footer__links">
+              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
+              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
+              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
+              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="productos.js"></script>
+  </body>
+</html>

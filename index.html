@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somos Fruit — Fruta fresca y natural</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <nav class="nav" aria-label="Principal">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
+          </a>
+          <a href="#contacto" class="nav__cta btn btn--primary">
+            Hacer pedido
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <button
+            type="button"
+            class="nav__toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Abrir menú"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav__links" id="nav-menu">
+            <li><a href="#inicio" class="is-active">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="nav__links-cta">
+              <a href="contacto.html" class="btn btn--primary nav__cta-mobile">
+                Hacer pedido
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__wrapper">
+          <div class="hero__inner">
+            <p class="hero__badge animate-on-scroll">Distribuimos producto fresco y de temporada</p>
+            <h1 class="hero__title animate-on-scroll">Frutas, verduras y productos frescos <br> para su negocio
+            </h1>
+            <p class="hero__subtitle animate-on-scroll">
+              Distribuimos frutas, verduras, hojas, hierbas y otros productos frescos seleccionados de productores costarricenses.
+            </p>
+            <div class="hero__actions animate-on-scroll">
+              <a href="productos.html" class="btn btn--primary btn--lg">
+                Ver productos
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+              <a href="#contacto" class="btn btn--outline btn--lg">Pedir cotización</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="values" aria-labelledby="values-heading">
+      <div class="values__pattern" aria-hidden="true"></div>
+      <div class="values__inner">
+        <div class="values__block values__block--trust animate-on-scroll">
+          <div class="values__avatars" aria-hidden="true">
+            <span class="values__avatar"></span>
+            <span class="values__avatar"></span>
+            <span class="values__avatar"></span>
+          </div>
+          <p id="values-heading" class="values__text">
+            <strong>+500 clientes</strong> del sector gastronómico confían en nosotros como aliado estratégico de abastecimiento.
+          </p>
+        </div>
+        <div class="values__badge-wrap animate-on-scroll" aria-hidden="true">
+          <div class="values__badge-circle">
+            <span class="values__badge-center">↗</span>
+            <span class="values__badge-caption">Calidad · Frescura · Logística · Servicio</span>
+          </div>
+        </div>
+        <div class="values__block values__block--life animate-on-scroll">
+          <p class="values__text values__text--right">
+            Del campo a tu operación con <strong>productos del día</strong>
+          </p>
+          <div class="values__thumb">
+            <img
+              src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=200&h=200&fit=crop&q=80"
+              alt=""
+              width="88"
+              height="88"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="productos">
+      <div class="section__container">
+        <div class="section__head animate-on-scroll">
+          <p class="section__label">NUESTRO COMPROMISO</p>
+          <h2 class="section__title">Tu aliado en abastecimiento</h2>
+          <p class="section__subtitle">
+            Soluciones integrales para restaurantes, hoteles y servicios de alimentación en Costa Rica.
+          </p>
+        </div>
+        <div class="cards">
+        <article class="card animate-on-scroll">
+          <div class="card__media">
+            <img
+              src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop&q=80"
+              alt="Selección de productos frescos"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Calidad</p>
+            <h3 class="card__title">Selección en origen</h3>
+            <p class="card__desc">
+              Productos nacionales e importados con altos estándares de calidad, seleccionados para el sector gastronómico.
+            </p>
+          </div>
+        </article>
+        <article class="card animate-on-scroll">
+          <div class="card__media">
+            <img
+              src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop&q=80"
+              alt="Logística de productos frescos"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Logística</p>
+            <h3 class="card__title">Frescura garantizada</h3>
+            <p class="card__desc">
+              Logística eficiente y cadena de frío que preserva la calidad desde el origen hasta tu puerta.
+            </p>
+          </div>
+        </article>
+        <article class="card animate-on-scroll">
+          <div class="card__media">
+            <img
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=400&fit=crop&q=80"
+              alt="Servicio para restaurantes y hoteles"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__body">
+            <p class="card__tag">Servicio</p>
+            <h3 class="card__title">Aliado estratégico</h3>
+            <p class="card__desc">
+              Atención personalizada que simplifica tu abastecimiento y apoya el éxito de tu operación.
+            </p>
+          </div>
+        </article>
+      </div>
+      </div>
+    </section>
+
+    <section class="section about-preview" id="sobre-nosotros">
+      <div class="section__container">
+        <div class="about-preview__grid">
+        <div class="about-preview__media animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&h=900&fit=crop&q=80"
+            alt="Equipo en campo con cosecha"
+            width="800"
+            height="900"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-preview__content animate-on-scroll">
+          <p class="section__label">Sobre nosotros</p>
+          <h2 class="section__title section__title--dark">Más que un proveedor, un aliado estratégico</h2>
+          <p class="about-preview__lead">
+            Entendemos los desafíos diarios de restaurantes, hoteles y servicios de alimentación.
+            No solo suministramos productos frescos: ofrecemos soluciones de abastecimiento para
+            que te concentres en brindar una experiencia excepcional a tus comensales.
+          </p>
+          <ul class="about-preview__list">
+            <li>Calidad y frescura en cada entrega</li>
+            <li>Amplia variedad de productos nacionales e importados</li>
+            <li>Servicio confiable para el sector gastronómico</li>
+          </ul>
+          <a href="sobre-nosotros.html" class="btn btn--primary">
+            Conocer más
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="section specialty-preview specialty-preview--flowers" id="flores-comestibles">
+      <div class="section__container">
+        <div class="specialty-preview__grid">
+          <div class="specialty-preview__media animate-on-scroll">
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop&q=80"
+              alt="Flores comestibles frescas"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+          <div class="specialty-preview__content animate-on-scroll">
+            <p class="section__label">Productos especializados</p>
+            <h2 class="section__title section__title--dark">Flores comestibles</h2>
+            <p class="specialty-preview__text">
+              En alianza con Club Clitoria ofrecemos flores comestibles de alta calidad,
+              cultivadas bajo principios agroecológicos y libres de pesticidas sintéticos.
+              Ideales para restaurantes, hoteles, coctelería y experiencias gastronómicas que
+              buscan diferenciarse con color, aroma y sabor.
+            </p>
+            <a href="productos-especializados.html#flores-comestibles" class="btn btn--primary">
+              Conocer más
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section specialty-preview specialty-preview--alt specialty-preview--greens" id="lechugas-premium">
+      <div class="section__container">
+        <div class="specialty-preview__grid specialty-preview__grid--reverse">
+          <div class="specialty-preview__media animate-on-scroll">
+            <img
+              src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=800&h=600&fit=crop&q=80"
+              alt="Lechugas premium y hortalizas especializadas"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+          <div class="specialty-preview__content animate-on-scroll">
+            <p class="section__label">Productos especializados</p>
+            <h2 class="section__title section__title--dark">Lechugas premium e hortalizas especializadas</h2>
+            <p class="specialty-preview__text">
+              Selección de hojas cultivadas bajo altos estándares de calidad, frescura e inocuidad.
+              Cosechadas y deshojadas manualmente para preservar textura, color y una presentación
+              superior para ensaladas y propuestas culinarias gourmet.
+            </p>
+            <a href="productos-especializados.html#lechugas-premium" class="btn btn--primary">
+              Conocer más
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact__inner">
+        <div class="contact__intro animate-on-scroll">
+          <p class="section__label">Contacto</p>
+          <h2 class="section__title section__title--dark">Haz tu pedido o solicita cotización</h2>
+          <p class="contact__text">
+            Escríbenos con lo que necesitas (producto, cantidad aproximada y ciudad). Te
+            respondemos con disponibilidad y precio.
+          </p>
+        </div>
+        <form class="contact__form animate-on-scroll" action="#" method="post" id="home-contact-form">
+          <label class="field">
+            <span class="field__label">Nombre</span>
+            <input type="text" name="nombre" required autocomplete="name" placeholder="Tu nombre" />
+          </label>
+          <label class="field">
+            <span class="field__label">Correo</span>
+            <input
+              type="email"
+              name="email"
+              required
+              autocomplete="email"
+              placeholder="correo@ejemplo.com"
+            />
+          </label>
+          <label class="field">
+            <span class="field__label">Teléfono</span>
+            <input
+              type="tel"
+              name="telefono"
+              required
+              autocomplete="tel"
+              placeholder="(555) 123-4567"
+            />
+          </label>
+          <label class="field">
+            <span class="field__label">Empresa</span>
+            <input
+              type="text"
+              name="empresa"
+              required
+              autocomplete="organization"
+              placeholder="Nombre de tu negocio"
+            />
+          </label>
+          <label class="field field--full">
+            <span class="field__label">Mensaje</span>
+            <textarea name="mensaje" rows="4" required placeholder="Productos, cantidades, fecha deseada..."></textarea>
+          </label>
+          
+          <div class="h-captcha field--full" data-sitekey="b0ec8d66-702e-4d8e-b1b2-dafee884635a"></div>
+          
+          <button type="submit" class="btn btn--primary btn--lg field--full">
+            Enviar
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="footer__logo-img" />
+          </a>
+          <p class="footer__tagline">Fruta fresca, trato humano.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <p class="footer__heading">Enlaces</p>
+            <ul class="footer__links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__heading">Contacto</p>
+            <ul class="footer__links">
+              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
+              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
+              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
+              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Home contact form handling
+      const homeContactForm = document.getElementById('home-contact-form');
+      if (homeContactForm) {
+        homeContactForm.addEventListener('submit', async function(e) {
+          e.preventDefault();
+
+          // Get hCaptcha response
+          const hcaptchaResponse = hcaptcha.getResponse();
+          
+          if (!hcaptchaResponse) {
+            alert('Por favor completa el captcha');
+            return;
+          }
+
+          const formData = new FormData(homeContactForm);
+          const submitBtn = homeContactForm.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Enviando...';
+
+          const data = {
+            nombre: formData.get('nombre'),
+            email: formData.get('email'),
+            telefono: formData.get('telefono'),
+            empresa: formData.get('empresa'),
+            mensaje: formData.get('mensaje')
+          };
+
+          // Use mailto as fallback
+          const subject = encodeURIComponent(`Contacto desde web - ${data.nombre}`);
+          const body = encodeURIComponent(`
+Nombre: ${data.nombre}
+Email: ${data.email}
+Teléfono: ${data.telefono}
+Empresa: ${data.empresa}
+
+Mensaje:
+${data.mensaje}
+          `.trim());
+          
+          window.location.href = `mailto:vcorea@somosfruit.net?subject=${subject}&body=${body}`;
+          
+          setTimeout(() => {
+            alert('Gracias por contactarnos. Te responderemos pronto.');
+            homeContactForm.reset();
+            hcaptcha.reset();
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalText;
+          }, 1000);
+        });
+      }
+    </script>
+  </body>
+</html>

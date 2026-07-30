@@ -1,0 +1,242 @@
+/* ——— Contact Page Header ——— */
+.site-header--minimal {
+  min-height: auto;
+  background: var(--green-deep);
+  padding: 1.5rem 0;
+  position: relative;
+  z-index: 100;
+}
+
+@media (max-width: 900px) {
+  .site-header--minimal {
+    padding: 1.25rem 0;
+  }
+}
+
+.site-header--minimal .nav {
+  position: relative;
+  padding: 0;
+}
+
+/* ——— Contact Page ——— */
+.contact-page {
+  background: var(--white);
+  min-height: calc(100vh - 80px);
+  padding: var(--padding-y) var(--padding-x);
+}
+
+.contact-page__container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.contact-page__content {
+  display: grid;
+  gap: 4rem;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .contact-page__content {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 5rem;
+  }
+}
+
+/* ——— Info Section ——— */
+.contact-page__label {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 2px solid var(--green-mid);
+  color: var(--green-mid);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.5rem;
+}
+
+.contact-page__title {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--green-deep);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.contact-page__text {
+  margin: 0 0 3rem;
+  font-size: 1.0625rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+/* ——— Contact Channels ——— */
+.contact-channels__title {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--green-deep);
+}
+
+.contact-channel {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border-radius: var(--radius-md);
+  border: 2px solid rgba(45, 106, 79, 0.15);
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.contact-channel:hover {
+  border-color: var(--green-mid);
+  background: var(--gray-100);
+  transform: translateY(-2px);
+}
+
+.contact-channel__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-channel__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-channel__icon--whatsapp {
+  background: #25D366;
+  color: var(--white);
+}
+
+.contact-channel__icon--email {
+  background: var(--green-mid);
+  color: var(--white);
+}
+
+.contact-channel__icon--instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: var(--white);
+}
+
+.contact-channel__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact-channel__label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-channel__value {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--green-deep);
+}
+
+/* ——— Contact Form ——— */
+.contact-page__form-wrapper {
+  background: var(--gray-100);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  border: 2px solid rgba(45, 106, 79, 0.1);
+}
+
+@media (max-width: 640px) {
+  .contact-page__form-wrapper {
+    padding: 1.75rem;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-form__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .contact-form__row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* hCaptcha container styling */
+.h-captcha {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .h-captcha {
+    transform: scale(0.85);
+    transform-origin: 0 0;
+  }
+}
+
+/* ——— Form Success Message ——— */
+.form-success {
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  background: #d4edda;
+  border: 2px solid #28a745;
+  color: #155724;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  display: none;
+}
+
+.form-success.show {
+  display: block;
+}
+
+.form-success__icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-success__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.form-success__text {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+/* ——— Form Error Message ——— */
+.form-error {
+  padding: 1rem;
+  border-radius: var(--radius-sm);
+  background: #f8d7da;
+  border: 2px solid #dc3545;
+  color: #721c24;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.form-error.show {
+  display: block;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cotización — Somos Fruit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <header class="site-header site-header--minimal">
+      <nav class="nav" aria-label="Principal">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
+          </a>
+          <a href="index.html#contacto" class="nav__cta btn btn--primary">
+            Hacer pedido
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <button
+            type="button"
+            class="nav__toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Abrir menú"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav__links" id="nav-menu">
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="nav__links-cta">
+              <a href="index.html#contacto" class="btn btn--primary nav__cta-mobile">
+                Hacer pedido
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="cart-page">
+      <div class="cart-page__container">
+        <div class="cart-page__header animate-on-scroll">
+          <h1 class="cart-page__title">Tu cotización</h1>
+          <p class="cart-page__subtitle">
+            Revisa los productos seleccionados y solicita tu cotización
+          </p>
+        </div>
+
+        <div class="cart-content" id="cart-content">
+          <!-- Cart items will be rendered here -->
+        </div>
+
+        <div class="cart-empty animate-on-scroll" id="cart-empty" style="display: none;">
+          <div class="cart-empty__icon">🛒</div>
+          <h2 class="cart-empty__title">Tu cotización está vacía</h2>
+          <p class="cart-empty__text">
+            Agrega productos desde nuestro catálogo para solicitar una cotización
+          </p>
+          <a href="productos.html" class="btn btn--primary btn--lg">
+            Ver productos
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="cart-checkout" id="cart-checkout" style="display: none;">
+          <div class="cart-summary animate-on-scroll">
+            <h2 class="cart-summary__title">Resumen de cotización</h2>
+            <div class="cart-summary__items">
+              <span>Total de productos:</span>
+              <strong id="summary-count">0</strong>
+            </div>
+            <p class="cart-summary__note">
+              * Los precios serán enviados en la cotización según disponibilidad y cantidades
+            </p>
+          </div>
+
+          <div class="checkout-form animate-on-scroll">
+            <h2 class="checkout-form__title">Datos para cotización</h2>
+            <form id="quote-form">
+              <div class="form-row">
+                <label class="field">
+                  <span class="field__label">Nombre *</span>
+                  <input
+                    type="text"
+                    name="nombre"
+                    required
+                    autocomplete="name"
+                    placeholder="Tu nombre completo"
+                  />
+                </label>
+                <label class="field">
+                  <span class="field__label">Correo electrónico *</span>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    autocomplete="email"
+                    placeholder="correo@ejemplo.com"
+                  />
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label class="field">
+                  <span class="field__label">Teléfono *</span>
+                  <input
+                    type="tel"
+                    name="telefono"
+                    required
+                    autocomplete="tel"
+                    placeholder="(555) 123-4567"
+                  />
+                </label>
+                <label class="field">
+                  <span class="field__label">Empresa *</span>
+                  <input
+                    type="text"
+                    name="empresa"
+                    required
+                    autocomplete="organization"
+                    placeholder="Ej: Restaurante El Sabor"
+                  />
+                </label>
+              </div>
+
+              <label class="field field--full">
+                <span class="field__label">Mensaje *</span>
+                <textarea
+                  name="mensaje"
+                  rows="4"
+                  required
+                  placeholder="Dirección de entrega, horarios preferidos, instrucciones especiales..."
+                ></textarea>
+              </label>
+
+              <button type="submit" class="btn btn--primary btn--lg btn--full" id="submit-btn">
+                Solicitar cotización
+                <span class="btn__arrow" aria-hidden="true">→</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="Logo-Somos-Blanco.svg" alt="Somos Fruit" class="footer__logo-img" />
+          </a>
+          <p class="footer__tagline">Fruta fresca, trato humano.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <p class="footer__heading">Enlaces</p>
+            <ul class="footer__links">
+              <li><a href="index.html#inicio">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__heading">Contacto</p>
+            <ul class="footer__links">
+              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
+              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
+              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
+              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
