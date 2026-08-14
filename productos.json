@@ -57,14 +57,6 @@
       "image": "Productos/Albahaca-1080x1080.webp"
     },
     {
-      "id": 8,
-      "nombre": "Albahaca 100g",
-      "unidad": "unidad",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Albahaca-1080x1080.webp"
-    },
-    {
       "id": 9,
       "nombre": "Alfalfa bandeja 100g",
       "unidad": "bandeja",
@@ -345,24 +337,8 @@
       "image": "Productos/Culantro-Castilla.jpg"
     },
     {
-      "id": 44,
-      "nombre": "Culantro castilla rollo",
-      "unidad": "rollo",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Culantro-Castilla.jpg"
-    },
-    {
       "id": 45,
       "nombre": "Culantro coyote",
-      "unidad": "unidad",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Culantro-Coyote.jpg"
-    },
-    {
-      "id": 46,
-      "nombre": "Culantro coyote 1x10",
       "unidad": "unidad",
       "categoria": "hierbas",
       "linea": "regular",
@@ -430,7 +406,7 @@
       "unidad": "caja",
       "categoria": "especiales",
       "linea": "premium",
-      "image": "Productos/Flor-Comestible.jpg"
+      "image": "assets/flores/flor-01.jpeg"
     },
     {
       "id": 55,
@@ -438,7 +414,7 @@
       "unidad": "caja",
       "categoria": "especiales",
       "linea": "premium",
-      "image": "Productos/Flor-Comestible.jpg"
+      "image": "assets/flores/flor-02.jpeg"
     },
     {
       "id": 56,
@@ -532,14 +508,6 @@
       "id": 67,
       "nombre": "Hierbabuena",
       "unidad": "kilogramo",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Hierbabuena.png"
-    },
-    {
-      "id": 68,
-      "nombre": "Hierbabuena rollo 100g",
-      "unidad": "rollo",
       "categoria": "hierbas",
       "linea": "regular",
       "image": "Productos/Hierbabuena.png"
@@ -782,7 +750,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Maracuya.jpg"
+      "image": "Productos/Maracuya-congelado.jpg"
     },
     {
       "id": 99,
@@ -1134,7 +1102,7 @@
       "unidad": "unidad",
       "categoria": "tuberculos",
       "linea": "regular",
-      "image": "Productos/Rabano.png"
+      "image": "Productos/rabano-v4.png"
     },
     {
       "id": 143,
@@ -1169,14 +1137,6 @@
       "image": "Productos/Romero.jpg"
     },
     {
-      "id": 147,
-      "nombre": "Romero rollo",
-      "unidad": "rollo",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Romero.jpg"
-    },
-    {
       "id": 148,
       "nombre": "Salvia rollo",
       "unidad": "rollo",
@@ -1198,7 +1158,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Tamarindo.jpg"
+      "image": "Productos/tamarindo.png"
     },
     {
       "id": 151,
@@ -1222,7 +1182,7 @@
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "premium",
-      "image": "Productos/Tomate-Cherry-scaled.jpg"
+      "image": "Productos/tomate-cherry-amarillo.png"
     },
     {
       "id": 154,
@@ -1238,7 +1198,7 @@
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
-      "image": "Productos/Tomate-Mexicano-1536x1536.png"
+      "image": "Productos/tomate-mexicano.png"
     },
     {
       "id": 156,
@@ -1260,14 +1220,6 @@
       "id": 158,
       "nombre": "Tomillo",
       "unidad": "kilogramo",
-      "categoria": "hierbas",
-      "linea": "regular",
-      "image": "Productos/Tomillo.jpg"
-    },
-    {
-      "id": 159,
-      "nombre": "Tomillo rollo",
-      "unidad": "rollo",
       "categoria": "hierbas",
       "linea": "regular",
       "image": "Productos/Tomillo.jpg"
@@ -1358,7 +1310,7 @@
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
-      "image": "Productos/Mini-Vegetales.jpg"
+      "image": "Productos/zucchini.png"
     },
     {
       "id": 171,
@@ -1374,7 +1326,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "premium",
-      "image": "Productos/Hongos-Enteros.jpg"
+      "image": "Productos/hongo-rebanado.png"
     },
     {
       "id": 173,
@@ -1398,7 +1350,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "premium",
-      "image": "Productos/Hongos-Enteros.jpg"
+      "image": "Productos/hongo-shiitake.png"
     },
     {
       "id": 176,
@@ -1406,7 +1358,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "premium",
-      "image": "Productos/Hongos-Enteros.jpg"
+      "image": "Productos/melena-de-leon.png"
     },
     {
       "id": 177,
@@ -1430,7 +1382,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "premium",
-      "image": "Productos/Albahaca-1080x1080.webp"
+      "image": "Productos/albahaca-morada.png"
     },
     {
       "id": 180,
@@ -1494,7 +1446,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "premium",
-      "image": "Productos/Mostaza.png"
+      "image": "Productos/mostaza-verde.jpg"
     },
     {
       "id": 188,
@@ -1502,7 +1454,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "premium",
-      "image": "Productos/Mostaza.png"
+      "image": "Productos/mostaza-roja.jpg"
     },
     {
       "id": 189,
@@ -1510,7 +1462,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "premium",
-      "image": "Productos/Mostaza.png"
+      "image": "Productos/mizuna-roja.jpg"
     },
     {
       "id": 190,

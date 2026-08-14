@@ -37,11 +37,11 @@
               </button>
               <ul class="nav__dropdown-menu">
                 <li><a href="productos.html">Todos</a></li>
-                <li><a href="productos.html?q=flor%20comestible">Flores comestibles</a></li>
-                <li><a href="productos.html?categoria=microgreens">Microgreens</a></li>
+                <li><a href="flores-comestibles.html">Flores comestibles</a></li>
+                <li><a href="microgreens.html">Microgreens</a></li>
               </ul>
             </li>
-            <li><a href="productos.html?linea=premium">Productos premium</a></li>
+            <li><a href="productos-premium.html">Productos premium</a></li>
             <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li class="nav__links-cta">
@@ -189,15 +189,6 @@
     <section class="section about-preview" id="sobre-nosotros">
       <div class="section__container">
         <div class="about-preview__grid">
-        <div class="about-preview__media animate-on-scroll">
-          <img
-            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&h=900&fit=crop&q=80"
-            alt="Equipo en campo con cosecha"
-            width="800"
-            height="900"
-            loading="lazy"
-          />
-        </div>
         <div class="about-preview__content animate-on-scroll">
           <p class="section__label">Sobre nosotros</p>
           <h2 class="section__title section__title--dark">Más que un proveedor, un aliado estratégico</h2>
@@ -211,41 +202,62 @@
             <li>Amplia variedad de productos nacionales e importados</li>
             <li>Servicio confiable para el sector gastronómico</li>
           </ul>
-          <a href="sobre-nosotros.html" class="btn btn--primary">
-            Conocer más
-            <span class="btn__arrow" aria-hidden="true">→</span>
-          </a>
+          <a href="sobre-nosotros.html" class="btn btn--primary">Conocer más</a>
+        </div>
+        <div class="about-preview__media animate-on-scroll">
+          <img
+            src="assets/Logistica.png"
+            alt="Logística de productos frescos"
+            width="800"
+            height="900"
+            loading="lazy"
+          />
         </div>
       </div>
       </div>
     </section>
 
-    <section class="section specialty-preview specialty-preview--flowers" id="flores-comestibles">
-      <div class="section__container">
-        <div class="specialty-preview__grid">
-          <div class="specialty-preview__media animate-on-scroll">
+    <section class="section premium-split premium-split--flip" id="flores-comestibles">
+      <div class="section__container premium-split__inner">
+        <div class="premium-split__copy animate-on-scroll">
+          <p class="section__label">Productos especializados</p>
+          <h2 class="section__title section__title--dark">Flores comestibles</h2>
+          <p class="premium-split__text">
+            En alianza con Club Clitoria ofrecemos flores comestibles de alta calidad,
+            cultivadas bajo principios agroecológicos y libres de pesticidas sintéticos.
+            Ideales para restaurantes, hoteles, coctelería y experiencias gastronómicas que
+            buscan diferenciarse con color, aroma y sabor.
+          </p>
+          <a href="flores-comestibles.html" class="btn btn--hero">Conocer más</a>
+        </div>
+        <div class="premium-split__grid animate-on-scroll">
+          <figure class="premium-split__wide">
             <img
-              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop&q=80"
-              alt="Flores comestibles frescas"
-              width="800"
-              height="600"
+              src="assets/flores/flor-01.jpeg"
+              alt="Flores comestibles"
+              width="1432"
+              height="1080"
               loading="lazy"
             />
-          </div>
-          <div class="specialty-preview__content animate-on-scroll">
-            <p class="section__label">Productos especializados</p>
-            <h2 class="section__title section__title--dark">Flores comestibles</h2>
-            <p class="specialty-preview__text">
-              En alianza con Club Clitoria ofrecemos flores comestibles de alta calidad,
-              cultivadas bajo principios agroecológicos y libres de pesticidas sintéticos.
-              Ideales para restaurantes, hoteles, coctelería y experiencias gastronómicas que
-              buscan diferenciarse con color, aroma y sabor.
-            </p>
-            <a href="productos-especializados.html#flores-comestibles" class="btn btn--primary">
-              Conocer más
-              <span class="btn__arrow" aria-hidden="true">→</span>
-            </a>
-          </div>
+          </figure>
+          <figure>
+            <img
+              src="assets/flores/flor-02.jpeg"
+              alt="Flores comestibles"
+              width="800"
+              height="800"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/flores/flor-03.jpeg"
+              alt="Flores comestibles"
+              width="800"
+              height="1000"
+              loading="lazy"
+            />
+          </figure>
         </div>
       </div>
     </section>
@@ -260,7 +272,7 @@
             Cosechadas y deshojadas manualmente para preservar textura, color y una presentación
             superior para ensaladas y propuestas culinarias gourmet.
           </p>
-          <a href="productos.html?linea=premium" class="btn btn--hero">Ver productos</a>
+          <a href="productos-premium.html" class="btn btn--hero">Ver productos</a>
         </div>
         <div class="premium-split__grid animate-on-scroll">
           <figure class="premium-split__wide">
@@ -348,7 +360,6 @@
           
           <button type="submit" class="btn btn--primary btn--lg field--full">
             Enviar
-            <span class="btn__arrow" aria-hidden="true">→</span>
           </button>
         </form>
       </div>

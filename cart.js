@@ -209,7 +209,7 @@ Fecha de solicitud: ${new Date().toLocaleString('es-MX')}
         sendViaEmailClient(data, emailBody);
       } else {
         submitBtn.disabled = false;
-        submitBtn.innerHTML = 'Solicitar cotización <span class="btn__arrow" aria-hidden="true">→</span>';
+        submitBtn.innerHTML = "Solicitar cotización";
       }
     }
   });
@@ -247,7 +247,6 @@ function showSuccessModal() {
       <div class="modal__actions">
         <a href="index.html" class="btn btn--primary btn--lg btn--full">
           Volver al inicio
-          <span class="btn__arrow" aria-hidden="true">→</span>
         </a>
         <a href="productos.html" class="btn btn--outline btn--lg btn--full">
           Ver más productos

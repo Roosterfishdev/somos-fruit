@@ -67,6 +67,34 @@
     });
   });
 
+  // ——— Editorial sliders ———
+  document.querySelectorAll("[data-slider]").forEach(function (slider) {
+    var track = slider.querySelector(".prod-slider__track");
+    var slides = slider.querySelectorAll(".prod-slider__slide");
+    var dots = slider.querySelectorAll("[data-dot]");
+    var prev = slider.querySelector("[data-prev]");
+    var next = slider.querySelector("[data-next]");
+    if (!track || slides.length < 2) return;
+
+    var index = 0;
+
+    function go(i) {
+      index = (i + slides.length) % slides.length;
+      track.style.transform = "translateX(" + -index * 100 + "%)";
+      dots.forEach(function (dot, d) {
+        dot.classList.toggle("is-active", d === index);
+      });
+    }
+
+    if (prev) prev.addEventListener("click", function () { go(index - 1); });
+    if (next) next.addEventListener("click", function () { go(index + 1); });
+    dots.forEach(function (dot) {
+      dot.addEventListener("click", function () {
+        go(Number(dot.getAttribute("data-dot")) || 0);
+      });
+    });
+  });
+
   document.addEventListener("click", function () {
     document.querySelectorAll(".nav__dropdown").forEach(function (dropdown) {
       dropdown.classList.remove("is-open");

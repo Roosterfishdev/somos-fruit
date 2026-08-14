@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos premium — Somos Fruit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="editorial.css" />
+  </head>
+  <body>
+    <header class="site-header site-header--minimal">
+      <nav class="nav" aria-label="Principal">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <img src="assets/Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
+          </a>
+          <a href="contacto.html" class="nav__cta btn btn--hero">Hacer pedido</a>
+          <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav__links" id="nav-menu">
+            <li class="nav__dropdown">
+              <button type="button" class="nav__dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+                Productos <span class="nav__dropdown-caret" aria-hidden="true">▾</span>
+              </button>
+              <ul class="nav__dropdown-menu">
+                <li><a href="productos.html">Todos</a></li>
+                <li><a href="flores-comestibles.html">Flores comestibles</a></li>
+                <li><a href="microgreens.html">Microgreens</a></li>
+              </ul>
+            </li>
+            <li><a href="productos-premium.html" class="is-active">Productos premium</a></li>
+            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="nav__links-cta">
+              <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Hacer pedido</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="ed-intro ed-intro--split">
+        <div class="ed-wrap ed-intro__grid">
+          <div class="animate-on-scroll">
+            <p class="ed-intro__label">Productos premium</p>
+            <h1 class="ed-intro__title">Lechugas premium e hortalizas especializadas</h1>
+            <p class="ed-intro__lead">
+              Una selección cultivada bajo altos estándares de calidad, frescura e inocuidad, pensada para el sector gastronómico.
+            </p>
+          </div>
+          <figure class="ed-intro__media animate-on-scroll">
+            <img src="assets/premium-1.jpg" alt="Lechugas premium" width="1200" height="800" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="ed-story ed-story--alt">
+        <div class="ed-wrap ed-story__grid">
+          <div class="ed-mosaic animate-on-scroll">
+            <figure>
+              <img src="assets/premium-2.jpg" alt="Hortalizas especializadas" width="800" height="1000" />
+            </figure>
+            <figure>
+              <img src="assets/premium-3.jpg" alt="Hojas premium" width="800" height="800" />
+            </figure>
+            <figure>
+              <div class="ph" role="img" aria-label="Fotografía adicional, próximamente"><span>Fotografía</span></div>
+            </figure>
+          </div>
+          <div class="animate-on-scroll">
+            <h2 class="ed-story__title">Calidad desde el cultivo hasta la entrega</h2>
+            <p class="ed-story__text">
+              Trabajamos junto a productores comprometidos con una agricultura responsable, que promueve el uso eficiente de los recursos y prácticas orientadas a obtener productos frescos y de alta calidad durante todo el año.
+            </p>
+            <p class="ed-story__text">
+              En Somos Fruit ofrecemos una selección de lechugas premium y hortalizas especializadas cultivadas bajo altos estándares de calidad, frescura e inocuidad.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ed-quote">
+        <div class="ed-wrap animate-on-scroll">
+          <p class="ed-quote__text">Cada hoja, a mano</p>
+          <p class="ed-quote__note">Nuestras hojas son cosechadas y seleccionadas cuidadosamente para preservar su textura, color y frescura. El proceso de deshoje se realiza de forma manual, hoja por hoja, permitiendo un manejo más delicado del producto y garantizando una presentación superior para el sector gastronómico.</p>
+        </div>
+      </section>
+
+      <section class="ed-lookbook">
+        <div class="ed-wrap ed-lookbook__grid">
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><div class="ph" role="img" aria-label="Fotografía de Mix verde, próximamente"><span>Fotografía</span></div></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Mix verde, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Mix verde</h2>
+            <p class="ed-product__text">Variedades gourmet y mezclas de hojas frescas, ideales para ensaladas, acompañamientos y propuestas culinarias que buscan destacar por su sabor, apariencia y calidad.</p>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/lechuga-romana.png" alt="Lechuga romana" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Lechuga romana, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Lechuga romana</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Lechuga-1536x1159.webp" alt="Lechuga americana" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Lechuga americana, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Lechuga americana</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Eneldo.png" alt="Eneldo" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Eneldo, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Eneldo</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Arugula.png" alt="Arugula" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Arugula, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Arugula</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Kale.png" alt="Kale" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Kale, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Kale</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Pak-Choy-1080x1080.webp" alt="Pak choi" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Pak choi, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Pak choi</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><div class="ph" role="img" aria-label="Fotografía de Acelgas, próximamente"><span>Fotografía</span></div></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Acelgas, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Acelgas</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Romero.jpg" alt="Romero" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Romero, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Romero</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><div class="ph" role="img" aria-label="Fotografía de Arugula baby, próximamente"><span>Fotografía</span></div></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Arugula baby, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Arugula baby</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Albahaca-1080x1080.webp" alt="Albahaca" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Albahaca, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Albahaca</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Espinaca.jpg" alt="Espinaca" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Espinaca, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Espinaca</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Hierbabuena.png" alt="Hierbabuena" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Hierbabuena, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Hierbabuena</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Tomillo.jpg" alt="Tomillo" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Tomillo, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Tomillo</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/oro-verde-semillas-perejil-crespo.png" alt="Perejil criollo" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Perejil criollo, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Perejil criollo</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Perejil.webp" alt="Perejil italiano" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Perejil italiano, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Perejil italiano</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Salvia.webp" alt="Salvia" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Salvia, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Salvia</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Estragon.png" alt="Estragón" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Estragón, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Estragón</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/Oregano-2048x1530.jpg" alt="Orégano" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Orégano, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Orégano</h2>
+          </article>
+          <article class="ed-product animate-on-scroll">
+            <div class="prod-slider" data-slider>
+              <div class="prod-slider__viewport">
+                <div class="prod-slider__track">
+                  <figure class="prod-slider__slide"><img src="Productos/lechuga-lollarosa.png" alt="Lechuga olorosa" width="900" height="1100" loading="lazy" /></figure>
+                  <figure class="prod-slider__slide">
+                    <div class="ph" role="img" aria-label="Segunda fotografía de Lechuga olorosa, próximamente"><span>Fotografía</span></div>
+                  </figure>
+                </div>
+              </div>
+              <div class="prod-slider__ui">
+                <button type="button" class="prod-slider__btn" data-prev aria-label="Imagen anterior">‹</button>
+                <div class="prod-slider__dots">
+                  <button type="button" class="prod-slider__dot is-active" data-dot="0" aria-label="Imagen 1"></button>
+                  <button type="button" class="prod-slider__dot" data-dot="1" aria-label="Imagen 2"></button>
+                </div>
+                <button type="button" class="prod-slider__btn" data-next aria-label="Imagen siguiente">›</button>
+              </div>
+            </div>
+            <h2 class="ed-product__name">Lechuga olorosa</h2>
+          </article>
+        </div>
+      </section>
+
+      <section class="ed-quote">
+        <div class="ed-wrap animate-on-scroll">
+          <p class="ed-quote__text">En Somos Fruit creemos que una gran experiencia gastronómica comienza con ingredientes excepcionales, por eso cuidamos cada detalle desde el cultivo hasta la entrega final.</p>
+        </div>
+      </section>
+
+      <section class="ed-cta">
+        <div class="ed-cta__inner animate-on-scroll">
+          <h2 class="ed-cta__title">Disponibilidad y variedades para tu operación</h2>
+          <p class="ed-cta__text">Contáctanos para conocer disponibilidad y armar el pedido de hojas e hierbas que necesitas.</p>
+          <div class="ed-cta__actions">
+            <a href="contacto.html" class="btn btn--hero btn--lg">Hacer pedido</a>
+            <a href="productos.html" class="btn btn--outline btn--lg">Ver catálogo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/Logo-Somos-Blanco.svg" alt="Somos Fruit" class="footer__logo-img" />
+          </a>
+          <p class="footer__tagline">Fruta fresca, trato humano.</p>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <p class="footer__heading">Enlaces</p>
+            <ul class="footer__links">
+              <li><a href="index.html#inicio">Inicio</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__heading">Contacto</p>
+            <ul class="footer__links">
+              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
+              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
+              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
+              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

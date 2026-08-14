@@ -105,7 +105,7 @@ function showSuccess() {
   // Re-enable button
   const submitBtn = contactForm.querySelector('button[type="submit"]');
   submitBtn.disabled = false;
-  submitBtn.innerHTML = 'Enviar <span class="btn__arrow" aria-hidden="true">→</span>';
+  submitBtn.innerHTML = "Enviar";
   
   // Scroll to success message
   successDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });

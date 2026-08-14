@@ -76,12 +76,19 @@ function renderProducts() {
 }
 
 // Filter products
+function foldText(value) {
+  return String(value)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
 function filterProducts() {
   filteredProducts = products.filter((product) => {
     // Search filter
     if (activeFilters.search) {
-      const searchLower = activeFilters.search.toLowerCase();
-      if (!product.nombre.toLowerCase().includes(searchLower)) {
+      const searchFolded = foldText(activeFilters.search);
+      if (!foldText(product.nombre).includes(searchFolded)) {
         return false;
       }
     }
