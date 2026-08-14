@@ -398,7 +398,7 @@
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "premium",
-      "image": "Productos/Esparrago.jpg"
+      "image": "Productos/image-asset-2-1.png"
     },
     {
       "id": 51,
@@ -726,7 +726,7 @@
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Mandarina-1210x1080.webp"
+      "image": "Productos/mandarina-nacional.png"
     },
     {
       "id": 92,
@@ -846,7 +846,7 @@
       "unidad": "bandeja",
       "categoria": "verduras",
       "linea": "premium",
-      "image": "Productos/Escalopin.jpg"
+      "image": "Productos/escalopin-amarillo.png"
     },
     {
       "id": 107,
@@ -862,7 +862,7 @@
       "unidad": "bandeja",
       "categoria": "verduras",
       "linea": "premium",
-      "image": "Productos/Mini-Vegetales.jpg"
+      "image": "Productos/mini-vegetales-mixtos-empacado-3-26209.png"
     },
     {
       "id": 109,
@@ -870,7 +870,7 @@
       "unidad": "bandeja",
       "categoria": "tuberculos",
       "linea": "premium",
-      "image": "Productos/Zanahoria-2048x2048.jpg"
+      "image": "Productos/zanahoria-baby-empacado-250gr-1-32153.png"
     },
     {
       "id": 110,
@@ -878,7 +878,7 @@
       "unidad": "bandeja",
       "categoria": "verduras",
       "linea": "premium",
-      "image": "Productos/Mini-Vegetales.jpg"
+      "image": "Productos/mini-zucchinis.png"
     },
     {
       "id": 111,
@@ -910,7 +910,7 @@
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
-      "image": "Productos/Nabo-1080x1080.webp"
+      "image": "Productos/nabo.png"
     },
     {
       "id": 115,
@@ -1006,7 +1006,7 @@
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
-      "image": "Productos/Papa-Roja.png"
+      "image": "Productos/papa-roja-2.png"
     },
     {
       "id": 127,
@@ -1014,7 +1014,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Papaya-2048x1536.webp"
+      "image": "Productos/papaya.png"
     },
     {
       "id": 128,
@@ -1062,7 +1062,7 @@
       "unidad": "rollo",
       "categoria": "hierbas",
       "linea": "regular",
-      "image": "Productos/Perejil.webp"
+      "image": "Productos/oro-verde-semillas-perejil-crespo.png"
     },
     {
       "id": 134,

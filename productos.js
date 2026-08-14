@@ -6,8 +6,8 @@ fetch('productos.json')
   .then(response => response.json())
   .then(data => {
     products = data.productos;
-    filteredProducts = [...products];
-    renderProducts();
+    applyUrlFilters();
+    filterProducts();
   })
   .catch(error => {
     console.error('Error loading products:', error);
@@ -104,6 +104,32 @@ function filterProducts() {
   });
 
   renderProducts();
+}
+
+function applyUrlFilters() {
+  const params = new URLSearchParams(window.location.search);
+  const categoria = params.get("categoria");
+  const linea = params.get("linea");
+  const q = params.get("q");
+
+  if (categoria) {
+    activeFilters.categoria = [categoria];
+    document.querySelectorAll('[data-filter="categoria"]').forEach((checkbox) => {
+      checkbox.checked = checkbox.value === categoria;
+    });
+  }
+
+  if (linea) {
+    activeFilters.linea = [linea];
+    document.querySelectorAll('[data-filter="linea"]').forEach((checkbox) => {
+      checkbox.checked = checkbox.value === linea;
+    });
+  }
+
+  if (q) {
+    activeFilters.search = q;
+    searchInput.value = q;
+  }
 }
 
 // Handle search
