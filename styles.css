@@ -585,6 +585,29 @@ ul {
   max-width: 34rem;
 }
 
+.hero__subtitle,
+.hero__panel-text,
+.ally__lead,
+.about-preview__lead,
+.specialty-preview__text,
+.premium-split__text,
+.contact__text,
+.ed-intro__lead,
+.ed-intro__text,
+.ed-story__text,
+.ed-product__text,
+.about-intro__lead,
+.pillar-card__text,
+.about-why__block,
+.about-why__pull,
+.about-ally__text,
+.specialty-page__lead,
+.specialty-detail__text,
+.contact-page__text {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
@@ -1231,7 +1254,8 @@ ul {
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
 }
 
-.premium-split--flip .premium-split__grid {
+.premium-split--flip .premium-split__grid,
+.premium-split--flip .flower-cluster {
   order: -1;
 }
 
@@ -1241,7 +1265,8 @@ ul {
     grid-template-columns: 1fr;
   }
 
-  .premium-split--flip .premium-split__grid {
+  .premium-split--flip .premium-split__grid,
+  .premium-split--flip .flower-cluster {
     order: unset;
   }
 
@@ -1251,6 +1276,50 @@ ul {
 
   .premium-split__grid figure:not(.premium-split__wide) img {
     height: 220px;
+  }
+}
+
+.flower-cluster {
+  position: relative;
+  width: min(100%, 28rem);
+  aspect-ratio: 1;
+  justify-self: center;
+}
+
+.flower-cluster figure {
+  position: absolute;
+  width: 52%;
+  aspect-ratio: 1;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.flower-cluster figure:nth-child(1) {
+  top: 0;
+  left: 24%;
+}
+
+.flower-cluster figure:nth-child(2) {
+  bottom: 2%;
+  left: 0;
+}
+
+.flower-cluster figure:nth-child(3) {
+  bottom: 2%;
+  right: 0;
+}
+
+.flower-cluster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .flower-cluster {
+    width: min(100%, 20rem);
   }
 }
 
@@ -1393,6 +1462,18 @@ ul {
 
 .footer__links li {
   margin-bottom: 0.5rem;
+}
+
+.footer__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer__icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
 }
 
 .footer__links a:hover {

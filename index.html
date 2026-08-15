@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/favicon-somos.png" />
+    <link rel="apple-touch-icon" href="assets/favicon-somos.png" />
     <title>Somos Fruit — Fruta fresca y natural</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +22,7 @@
           <a href="index.html" class="nav__logo">
             <img src="assets/Logo-Somos-Blanco.svg" alt="Somos Fruit" class="nav__logo-img" />
           </a>
-          <a href="#contacto" class="nav__cta btn btn--hero">Hacer pedido</a>
+          <a href="contacto.html" class="nav__cta btn btn--hero">Conversemos</a>
           <button
             type="button"
             class="nav__toggle"
@@ -45,7 +47,7 @@
             <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li class="nav__links-cta">
-              <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Hacer pedido</a>
+              <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Conversemos</a>
             </li>
           </ul>
         </div>
@@ -62,7 +64,7 @@
             </p>
             <div class="hero__actions">
               <a href="productos.html" class="btn btn--hero btn--lg">Ver productos</a>
-              <a href="#contacto" class="btn btn--outline btn--lg">Pedir cotización</a>
+              <a href="contacto.html" class="btn btn--outline btn--lg">Conversemos</a>
             </div>
           </div>
           <aside class="hero__panel animate-on-scroll">
@@ -181,7 +183,7 @@
               </ul>
             </div>
           </div>
-          <a href="contacto.html" class="btn btn--hero">Hacer pedido</a>
+          <a href="contacto.html" class="btn btn--hero">Conversemos</a>
         </div>
       </div>
     </section>
@@ -230,19 +232,10 @@
           </p>
           <a href="flores-comestibles.html" class="btn btn--hero">Conocer más</a>
         </div>
-        <div class="premium-split__grid animate-on-scroll">
-          <figure class="premium-split__wide">
-            <img
-              src="assets/flores/flor-01.jpeg"
-              alt="Flores comestibles"
-              width="1432"
-              height="1080"
-              loading="lazy"
-            />
-          </figure>
+        <div class="flower-cluster animate-on-scroll">
           <figure>
             <img
-              src="assets/flores/flor-02.jpeg"
+              src="assets/flores/flor-08.png"
               alt="Flores comestibles"
               width="800"
               height="800"
@@ -251,10 +244,19 @@
           </figure>
           <figure>
             <img
-              src="assets/flores/flor-03.jpeg"
+              src="assets/flores/flor-06.png"
               alt="Flores comestibles"
               width="800"
-              height="1000"
+              height="800"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/flores/flor-04.png"
+              alt="Flores comestibles"
+              width="800"
+              height="800"
               loading="lazy"
             />
           </figure>
@@ -310,7 +312,7 @@
       <div class="contact__inner">
         <div class="contact__intro animate-on-scroll">
           <p class="section__label">Contacto</p>
-          <h2 class="section__title section__title--dark">Haz tu pedido o solicita cotización</h2>
+          <h2 class="section__title section__title--dark">Conversemos</h2>
           <p class="contact__text">
             Escríbenos con lo que necesitas (producto, cantidad aproximada y ciudad). Te
             respondemos con disponibilidad y precio.
@@ -386,10 +388,30 @@
           <div>
             <p class="footer__heading">Contacto</p>
             <ul class="footer__links">
-              <li><a href="mailto:vcorea@somosfruit.net">vcorea@somosfruit.net</a></li>
-              <li><a href="mailto:cquiros@somosfruit.net">cquiros@somosfruit.net</a></li>
-              <li><a href="tel:+525500000000">+52 155 0000 0000</a></li>
-              <li><a href="https://instagram.com/somosfruit" target="_blank" rel="noopener">@somosfruit</a></li>
+              <li>
+                <a href="mailto:vcorea@somosfruit.net">
+                  <svg class="footer__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  vcorea@somosfruit.net
+                </a>
+              </li>
+              <li>
+                <a href="mailto:cquiros@somosfruit.net">
+                  <svg class="footer__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  cquiros@somosfruit.net
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/50683229044" target="_blank" rel="noopener">
+                  <svg class="footer__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  +506 8322 9044
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/50687763622" target="_blank" rel="noopener">
+                  <svg class="footer__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  +506 8776 3622
+                </a>
+              </li>
             </ul>
           </div>
         </div>

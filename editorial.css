@@ -133,6 +133,37 @@
   line-height: 1.7;
   color: var(--gray-600);
   text-align: center;
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
+
+.ed-quote--photo {
+  position: relative;
+  isolation: isolate;
+  background: #081c15 url("assets/premium/eneldo-2.jpg") center / cover no-repeat;
+  padding: clamp(4.5rem, 12vw, 8rem) 0;
+}
+
+.ed-quote--photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 28, 21, 0.58);
+  z-index: 0;
+}
+
+.ed-quote--photo .ed-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.ed-quote--photo .ed-quote__text {
+  color: #fff;
+}
+
+.ed-quote--photo .ed-quote__note {
+  color: rgba(255, 255, 255, 0.88);
 }
 
 /* ——— Story blocks ——— */
@@ -293,20 +324,10 @@
   margin-top: 2rem;
 }
 
-.ed-partner__mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 3.25rem;
-  padding: 0.7rem 1.25rem;
-  border: 1px solid rgba(8, 28, 21, 0.12);
-  border-radius: 999px;
-  background: var(--white);
-  color: var(--green-deep);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 0.8125rem;
+.ed-partner__logo {
+  display: block;
+  width: clamp(5.75rem, 14vw, 7.75rem);
+  height: auto;
 }
 
 .ed-partner__caption {
@@ -318,7 +339,7 @@
 
 /* ——— Product lookbook ——— */
 .ed-lookbook {
-  background: var(--white);
+  background: #f4eadf;
   padding: var(--padding-y) 0;
 }
 
@@ -334,10 +355,11 @@
 
 .ed-product__name {
   margin: 1rem 0 0;
-  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   color: var(--green-deep);
+  text-align: center;
 }
 
 .ed-product__text {
@@ -347,19 +369,8 @@
   color: var(--gray-600);
 }
 
-.ed-lookbook .prod-slider__slide img,
-.ed-lookbook .prod-slider__slide .ph {
-  height: clamp(220px, 22vw, 300px);
-}
-
-.ed-lookbook .prod-slider__btn {
-  width: 2rem;
-  height: 2rem;
-  font-size: 0.95rem;
-}
-
-.ed-lookbook .prod-slider__ui {
-  margin-top: 0.65rem;
+.ed-lookbook .prod-slider {
+  --slide-h: clamp(220px, 22vw, 300px);
 }
 
 @media (max-width: 900px) {
@@ -376,6 +387,7 @@
 
 /* ——— Slider ——— */
 .prod-slider {
+  --slide-h: clamp(280px, 38vw, 460px);
   position: relative;
 }
 
@@ -398,7 +410,7 @@
 .prod-slider__slide img,
 .prod-slider__slide .ph {
   width: 100%;
-  height: clamp(280px, 38vw, 460px);
+  height: var(--slide-h);
   object-fit: cover;
   display: block;
 }
@@ -406,30 +418,42 @@
 .prod-slider__ui {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 0.85rem;
+  justify-content: center;
+  margin-top: 0.7rem;
 }
 
 .prod-slider__btn {
-  width: 2.35rem;
-  height: 2.35rem;
-  border-radius: 50%;
-  border: 1px solid rgba(8, 28, 21, 0.16);
-  background: var(--white);
-  color: var(--green-deep);
-  font-size: 1.05rem;
+  position: absolute;
+  top: calc(var(--slide-h) / 2);
+  transform: translateY(-50%);
+  z-index: 2;
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: #dc7926;
+  font-size: 2.15rem;
   line-height: 1;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s, border-color 0.2s;
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.prod-slider__btn[data-prev] {
+  left: 0.45rem;
+}
+
+.prod-slider__btn[data-next] {
+  right: 0.45rem;
 }
 
 .prod-slider__btn:hover {
-  background: #f4eadf;
-  border-color: #dc7926;
+  color: #c56a1f;
 }
 
 .prod-slider__dots {
@@ -535,26 +559,46 @@
 
 /* ——— CTA ——— */
 .ed-cta {
-  background: var(--green-deep);
-  padding: var(--padding-y) 0;
+  background: var(--white);
+  padding: var(--padding-y) var(--padding-x);
   text-align: center;
 }
 
 .ed-cta__inner {
-  max-width: 720px;
+  position: relative;
+  isolation: isolate;
+  max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 var(--padding-x);
+  padding: clamp(3.75rem, 9vw, 6.5rem) clamp(1.5rem, 5vw, 3rem);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #081c15 url("assets/premium-2.jpg") center / cover no-repeat;
+}
+
+.ed-cta__inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 28, 21, 0.58);
+  z-index: 0;
+}
+
+.ed-cta__inner > * {
+  position: relative;
+  z-index: 1;
 }
 
 .ed-cta__title {
-  margin: 0 0 1rem;
+  margin: 0 auto 1rem;
+  max-width: 22ch;
   font-size: clamp(1.75rem, 4vw, 2.25rem);
   font-weight: 700;
   color: var(--white);
 }
 
 .ed-cta__text {
-  margin: 0 0 2rem;
+  margin: 0 auto 2rem;
+  max-width: 40rem;
   font-size: 1.0625rem;
   line-height: 1.65;
   color: var(--white);
