@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/favicon-somos.png" />
     <link rel="apple-touch-icon" href="assets/favicon-somos.png" />
-    <title>Sobre nosotros — Somos Fruit</title>
+    <title>Sobre Nosotros — Somos Fruit</title>
+    <meta name="description" content="Somos Fruit abastece restaurantes, hoteles y servicios de alimentación con producto fresco, logística confiable y un servicio pensado para simplificar su operación." />
+    <link rel="canonical" href="sobre-nosotros.html" />
+    <meta name="theme-color" content="#081c15" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CR" />
+    <meta property="og:site_name" content="Somos Fruit" />
+    <meta property="og:title" content="Sobre Nosotros — Somos Fruit" />
+    <meta property="og:description" content="Somos Fruit abastece restaurantes, hoteles y servicios de alimentación con producto fresco, logística confiable y un servicio pensado para simplificar su operación." />
+    <meta property="og:image" content="assets/sobre-nosotros.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sobre Nosotros — Somos Fruit" />
+    <meta name="twitter:description" content="Somos Fruit abastece restaurantes, hoteles y servicios de alimentación con producto fresco, logística confiable y un servicio pensado para simplificar su operación." />
+    <meta name="twitter:image" content="assets/sobre-nosotros.jpg" />
+    <link rel="preload" as="image" href="assets/somos-fruit-compromiso.webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,12 +53,12 @@
               </button>
               <ul class="nav__dropdown-menu">
                 <li><a href="productos.html">Todos</a></li>
-                <li><a href="flores-comestibles.html">Flores comestibles</a></li>
+                <li><a href="flores-comestibles.html">Flores Comestibles</a></li>
                 <li><a href="microgreens.html">Microgreens</a></li>
               </ul>
             </li>
-            <li><a href="productos-premium.html">Productos premium</a></li>
-            <li><a href="sobre-nosotros.html" class="is-active">Sobre nosotros</a></li>
+            <li><a href="productos-premium.html">Productos Premium</a></li>
+            <li><a href="sobre-nosotros.html" class="is-active">Sobre Nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li class="nav__links-cta">
               <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Conversemos</a>
@@ -70,6 +84,7 @@
               alt="Selección de producto fresco"
               width="900"
               height="700"
+              fetchpriority="high"
             />
           </div>
         </div>
@@ -121,6 +136,8 @@
               alt="Somos Fruit"
               width="800"
               height="900"
+              loading="lazy"
+              decoding="async"
             />
           </figure>
           <div class="about-why__content">
@@ -147,6 +164,8 @@
               alt="Logística de productos frescos"
               width="800"
               height="600"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div class="about-ally__content">
@@ -197,7 +216,7 @@
             <ul class="footer__links">
               <li><a href="index.html#inicio">Inicio</a></li>
               <li><a href="productos.html">Productos</a></li>
-              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
@@ -235,6 +254,6 @@
       <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

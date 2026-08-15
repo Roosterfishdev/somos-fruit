@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/favicon-somos.png" />
     <link rel="apple-touch-icon" href="assets/favicon-somos.png" />
-    <title>Somos Fruit — Fruta fresca y natural</title>
+    <title>Somos Fruit — Frutas y verduras frescas para restaurantes y hoteles</title>
+    <meta name="description" content="Distribuimos frutas, verduras, hojas, hierbas y productos frescos de productores costarricenses para restaurantes, hoteles y servicios de alimentación." />
+    <link rel="canonical" href="index.html" />
+    <meta name="theme-color" content="#081c15" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CR" />
+    <meta property="og:site_name" content="Somos Fruit" />
+    <meta property="og:title" content="Somos Fruit — Frutas y verduras frescas para restaurantes y hoteles" />
+    <meta property="og:description" content="Distribuimos frutas, verduras, hojas, hierbas y productos frescos de productores costarricenses para restaurantes, hoteles y servicios de alimentación." />
+    <meta property="og:image" content="assets/6924.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Somos Fruit — Frutas y verduras frescas para restaurantes y hoteles" />
+    <meta name="twitter:description" content="Distribuimos frutas, verduras, hojas, hierbas y productos frescos de productores costarricenses para restaurantes, hoteles y servicios de alimentación." />
+    <meta name="twitter:image" content="assets/6924.jpg" />
+    <link rel="preload" as="image" href="assets/6924.jpg" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://js.hcaptcha.com" />
+    <link rel="dns-prefetch" href="https://newassets.hcaptcha.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Somos Fruit",
+        "description": "Distribuimos frutas, verduras, hojas, hierbas y otros productos frescos seleccionados de productores costarricenses.",
+        "email": ["vcorea@somosfruit.net", "cquiros@somosfruit.net"],
+        "telephone": ["+506-8322-9044", "+506-8776-3622"],
+        "areaServed": "CR"
+      }
+    </script>
   </head>
   <body>
     <header class="site-header" id="inicio">
@@ -39,12 +66,12 @@
               </button>
               <ul class="nav__dropdown-menu">
                 <li><a href="productos.html">Todos</a></li>
-                <li><a href="flores-comestibles.html">Flores comestibles</a></li>
+                <li><a href="flores-comestibles.html">Flores Comestibles</a></li>
                 <li><a href="microgreens.html">Microgreens</a></li>
               </ul>
             </li>
-            <li><a href="productos-premium.html">Productos premium</a></li>
-            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="productos-premium.html">Productos Premium</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li class="nav__links-cta">
               <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Conversemos</a>
@@ -80,6 +107,7 @@
       </section>
     </header>
 
+    <main>
     <section class="values" aria-label="Categorías de producto">
       <div class="values__marquee">
         <div class="values__track">
@@ -340,7 +368,7 @@
               name="telefono"
               required
               autocomplete="tel"
-              placeholder="(555) 123-4567"
+              placeholder="+506 8888 8888"
             />
           </label>
           <label class="field">
@@ -366,6 +394,7 @@
         </form>
       </div>
     </section>
+    </main>
 
     <footer class="footer">
       <div class="footer__inner">
@@ -381,7 +410,7 @@
             <ul class="footer__links">
               <li><a href="#inicio">Inicio</a></li>
               <li><a href="productos.html">Productos</a></li>
-              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
@@ -419,7 +448,7 @@
       <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script>
       // Home contact form handling
       const homeContactForm = document.getElementById('home-contact-form');

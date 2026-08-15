@@ -101,10 +101,6 @@
     grid-template-columns: 1fr;
   }
 
-  .ed-intro__media {
-    order: -1;
-  }
-
   .ed-intro__media img {
     height: 240px;
   }
@@ -199,6 +195,10 @@
   height: clamp(260px, 36vw, 440px);
   object-fit: cover;
   display: block;
+}
+
+.ed-story__media--fit img {
+  object-fit: contain;
 }
 
 .ed-story__title {
@@ -456,6 +456,28 @@
   color: #c56a1f;
 }
 
+@media (max-width: 900px) {
+  .ed-lookbook .prod-slider__viewport {
+    aspect-ratio: 1 / 1;
+    background: #fff;
+  }
+
+  .ed-lookbook .prod-slider__track,
+  .ed-lookbook .prod-slider__slide {
+    height: 100%;
+  }
+
+  .ed-lookbook .prod-slider__slide img,
+  .ed-lookbook .prod-slider__slide .ph {
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .ed-lookbook .prod-slider__btn {
+    top: 50%;
+  }
+}
+
 .prod-slider__dots {
   display: flex;
   gap: 0.45rem;
@@ -610,6 +632,17 @@
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.ed-cta .btn--outline {
+  color: #fff;
+  border-color: #fff;
+}
+
+.ed-cta .btn--outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-color: #fff;
 }
 
 @media (max-width: 640px) {

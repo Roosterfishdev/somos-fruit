@@ -124,44 +124,31 @@
     });
   }
 
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
+  if (sections.length) {
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
 
-  // ——— Scroll Animations ———
-  var observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
-  };
-
-  var observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
       if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
+        entry.target.classList.add("is-visible");
         observer.unobserve(entry.target);
       }
     });
-  }, observerOptions);
+  }, { root: null, rootMargin: "0px", threshold: 0.1 });
 
-  // Export observer globally for dynamic content
   window.animationObserver = observer;
 
-  // Wait for DOM to be fully loaded before observing elements
-  document.addEventListener('DOMContentLoaded', function() {
-    var animatedElements = document.querySelectorAll('.animate-on-scroll');
-    animatedElements.forEach(function(el) {
+  function observeAnimated() {
+    document.querySelectorAll(".animate-on-scroll").forEach(function (el) {
       observer.observe(el);
     });
-  });
+  }
 
-  // Also run immediately in case DOM is already loaded
-  if (document.readyState === 'loading') {
-    // DOMContentLoaded listener above will handle it
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", observeAnimated);
   } else {
-    // DOM is already loaded
-    var animatedElements = document.querySelectorAll('.animate-on-scroll');
-    animatedElements.forEach(function(el) {
-      observer.observe(el);
-    });
+    observeAnimated();
   }
 })();

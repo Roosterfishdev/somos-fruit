@@ -55,7 +55,7 @@ function renderProducts() {
       (product) => `
     <article class="product-card animate-on-scroll">
       <div class="product-card__image">
-        <img src="${product.image}" alt="${product.nombre}" loading="lazy" />
+        <img src="${product.image}" alt="${product.nombre}" loading="lazy" decoding="async" />
         ${product.linea === "premium" ? '<span class="product-card__badge">Premium</span>' : ""}
       </div>
       <div class="product-card__body">

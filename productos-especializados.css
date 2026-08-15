@@ -211,6 +211,17 @@
   flex-wrap: wrap;
 }
 
+.specialty-page__cta .btn--outline {
+  color: #fff;
+  border-color: #fff;
+}
+
+.specialty-page__cta .btn--outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-color: #fff;
+}
+
 @media (max-width: 640px) {
   .specialty-page__cta-actions {
     flex-direction: column;

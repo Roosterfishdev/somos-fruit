@@ -6,6 +6,20 @@
     <link rel="icon" type="image/png" href="assets/favicon-somos.png" />
     <link rel="apple-touch-icon" href="assets/favicon-somos.png" />
     <title>Productos especializados — Somos Fruit</title>
+    <meta name="description" content="Flores comestibles y lechugas premium para el sector gastronómico. Ingredientes que inspiran creatividad." />
+    <link rel="canonical" href="productos-especializados.html" />
+    <meta name="theme-color" content="#081c15" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CR" />
+    <meta property="og:site_name" content="Somos Fruit" />
+    <meta property="og:title" content="Productos especializados — Somos Fruit" />
+    <meta property="og:description" content="Flores comestibles y lechugas premium para el sector gastronómico. Ingredientes que inspiran creatividad." />
+    <meta property="og:image" content="assets/flores/flor-01.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Productos especializados — Somos Fruit" />
+    <meta name="twitter:description" content="Flores comestibles y lechugas premium para el sector gastronómico. Ingredientes que inspiran creatividad." />
+    <meta name="twitter:image" content="assets/flores/flor-01.jpeg" />
+    <link rel="preload" as="image" href="assets/flores/flor-01.jpeg" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,12 +53,12 @@
               </button>
               <ul class="nav__dropdown-menu">
                 <li><a href="productos.html">Todos</a></li>
-                <li><a href="flores-comestibles.html">Flores comestibles</a></li>
+                <li><a href="flores-comestibles.html">Flores Comestibles</a></li>
                 <li><a href="microgreens.html">Microgreens</a></li>
               </ul>
             </li>
-            <li><a href="productos-premium.html">Productos premium</a></li>
-            <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="productos-premium.html">Productos Premium</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li class="nav__links-cta">
               <a href="contacto.html" class="btn btn--hero nav__cta-mobile">Conversemos</a>
@@ -73,6 +87,7 @@
               alt="Flores comestibles frescas"
               width="900"
               height="700"
+              fetchpriority="high"
             />
           </div>
           <div class="specialty-detail__content">
@@ -111,6 +126,8 @@
               alt="Lechugas premium y hortalizas especializadas"
               width="900"
               height="700"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div class="specialty-detail__content">
@@ -154,7 +171,7 @@
               Solicitar información
             </a>
             <a href="productos.html" class="btn btn--outline btn--lg">
-              Ver catálogo completo
+              Ver Productos
             </a>
           </div>
         </div>
@@ -175,7 +192,7 @@
             <ul class="footer__links">
               <li><a href="index.html#inicio">Inicio</a></li>
               <li><a href="productos.html">Productos</a></li>
-              <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
@@ -213,6 +230,6 @@
       <p class="footer__legal">© <span id="year"></span> Somos Fruit. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

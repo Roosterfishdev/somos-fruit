@@ -51,10 +51,6 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
-  .about-intro__image {
-    order: -1;
-  }
 }
 
 .about-intro__label {

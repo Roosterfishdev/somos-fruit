@@ -2,23 +2,23 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "Aguacate importado",
+      "nombre": "Aguacate Importado",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Aguacate.jpg"
     },
     {
       "id": 2,
-      "nombre": "Aji peruano",
+      "nombre": "Aji Peruano",
       "unidad": "kilogramo",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Aji-Peruano-1.jpg"
     },
     {
       "id": 3,
-      "nombre": "Ajo en trenza",
+      "nombre": "Ajo En Trenza",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "nombre": "Ajo mallita 3x1",
+      "nombre": "Ajo Mallita 3x1",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -34,18 +34,18 @@
     },
     {
       "id": 5,
-      "nombre": "Ajo pelado",
+      "nombre": "Ajo Pelado",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/ajo-pelado.png"
     },
     {
       "id": 6,
-      "nombre": "Ajo negro",
+      "nombre": "Ajo Negro",
       "unidad": "bandeja",
       "categoria": "especiales",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Ajo-Negro-1.png"
     },
     {
@@ -58,15 +58,15 @@
     },
     {
       "id": 9,
-      "nombre": "Alfalfa bandeja 100g",
+      "nombre": "Alfalfa Bandeja 100g",
       "unidad": "bandeja",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Alfalfa.webp"
     },
     {
       "id": 10,
-      "nombre": "Alverja china paquete",
+      "nombre": "Alverja China Paquete",
       "unidad": "unidad",
       "categoria": "legumbres",
       "linea": "regular",
@@ -74,7 +74,7 @@
     },
     {
       "id": 11,
-      "nombre": "Apio mata grande",
+      "nombre": "Apio Mata Grande",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -82,10 +82,10 @@
     },
     {
       "id": 12,
-      "nombre": "Arándanos bandeja 125g",
+      "nombre": "Arándanos Bandeja 125g",
       "unidad": "bandeja",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Arandanos.jpg"
     },
     {
@@ -93,12 +93,12 @@
       "nombre": "Arúgula kg",
       "unidad": "kilogramo",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Arugula.png"
     },
     {
       "id": 14,
-      "nombre": "Ayote mantequilla",
+      "nombre": "Ayote Mantequilla",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -106,7 +106,7 @@
     },
     {
       "id": 15,
-      "nombre": "Ayote tierno",
+      "nombre": "Ayote Tierno",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -114,7 +114,7 @@
     },
     {
       "id": 16,
-      "nombre": "Ayote sazón",
+      "nombre": "Ayote Sazón",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -122,7 +122,7 @@
     },
     {
       "id": 17,
-      "nombre": "Banano criollo",
+      "nombre": "Banano Criollo",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -130,10 +130,10 @@
     },
     {
       "id": 18,
-      "nombre": "Banano de exportación",
+      "nombre": "Banano De Exportación",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Banano-scaled.jpeg"
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "id": 21,
-      "nombre": "Camote morado",
+      "nombre": "Camote Morado",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -162,10 +162,10 @@
     },
     {
       "id": 22,
-      "nombre": "Camote dorado",
+      "nombre": "Camote Dorado",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/camote-dorado.png"
     },
     {
@@ -173,7 +173,7 @@
       "nombre": "Carambola",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Carambola.jpg"
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "id": 25,
-      "nombre": "Cebolla blanca",
+      "nombre": "Cebolla Blanca",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -194,7 +194,7 @@
     },
     {
       "id": 26,
-      "nombre": "Cebolla morada",
+      "nombre": "Cebolla Morada",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -209,24 +209,24 @@
       "image": "Productos/Cebollin-768x415.png"
     },
     {
-      "nombre": "Chives (cibulette)",
+      "nombre": "Chives (Cibulette)",
       "unidad": "rollito",
       "categoria": "hierbas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/chives-ciboulette.png",
       "id": 28
     },
     {
       "id": 29,
-      "nombre": "Chalota morada",
+      "nombre": "Chalota Morada",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Chalota-Morada-1.png"
     },
     {
       "id": 30,
-      "nombre": "Chayote quelite",
+      "nombre": "Chayote Quelite",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -234,7 +234,7 @@
     },
     {
       "id": 31,
-      "nombre": "Chayote negro",
+      "nombre": "Chayote Negro",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -242,7 +242,7 @@
     },
     {
       "id": 32,
-      "nombre": "Chayote sazón",
+      "nombre": "Chayote Sazón",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -250,15 +250,15 @@
     },
     {
       "id": 33,
-      "nombre": "Chile ancho bandeja",
+      "nombre": "Chile Ancho Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/chile-ancho-seco.png"
     },
     {
       "id": 34,
-      "nombre": "Chile dulce primera",
+      "nombre": "Chile Dulce Primera",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -266,7 +266,7 @@
     },
     {
       "id": 35,
-      "nombre": "Chile jalapeño",
+      "nombre": "Chile Jalapeño",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -274,23 +274,23 @@
     },
     {
       "id": 36,
-      "nombre": "Chile morita bandeja",
+      "nombre": "Chile Morita Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Chile-Morita-1080x1080.jpg"
     },
     {
       "id": 37,
-      "nombre": "Chile morrón mundial",
+      "nombre": "Chile Morrón Mundial",
       "unidad": "unidad",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Chile-Morron-Mundial.webp"
     },
     {
       "id": 38,
-      "nombre": "Chile panameño",
+      "nombre": "Chile Panameño",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -314,10 +314,10 @@
     },
     {
       "id": 41,
-      "nombre": "Col de bruselas",
+      "nombre": "Col De Bruselas",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Col-De-Bruselas.png"
     },
     {
@@ -330,7 +330,7 @@
     },
     {
       "id": 43,
-      "nombre": "Culantro castilla 1x10",
+      "nombre": "Culantro Castilla 1x10",
       "unidad": "unidad",
       "categoria": "hierbas",
       "linea": "regular",
@@ -338,7 +338,7 @@
     },
     {
       "id": 45,
-      "nombre": "Culantro coyote",
+      "nombre": "Culantro Coyote",
       "unidad": "unidad",
       "categoria": "hierbas",
       "linea": "regular",
@@ -346,15 +346,15 @@
     },
     {
       "id": 47,
-      "nombre": "Elote dulce bandeja",
+      "nombre": "Elote Dulce Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/elote-dulce.png"
     },
     {
       "id": 48,
-      "nombre": "Elotes nacional",
+      "nombre": "Elotes Nacional",
       "unidad": "unidad",
       "categoria": "verduras",
       "linea": "regular",
@@ -362,10 +362,10 @@
     },
     {
       "id": 49,
-      "nombre": "Eneldo rollito",
+      "nombre": "Eneldo Rollito",
       "unidad": "unidad",
       "categoria": "hierbas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Eneldo.png"
     },
     {
@@ -373,12 +373,12 @@
       "nombre": "Espárrago",
       "unidad": "unidad",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/image-asset-2-1.png"
     },
     {
       "id": 51,
-      "nombre": "Espinaca con tallo",
+      "nombre": "Espinaca Con Tallo",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
@@ -386,39 +386,39 @@
     },
     {
       "id": 52,
-      "nombre": "Espinaca deshojada",
+      "nombre": "Espinaca Deshojada",
       "unidad": "kilogramo",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Espinaca.jpg"
     },
     {
       "id": 53,
-      "nombre": "Estragón rollito",
+      "nombre": "Estragón Rollito",
       "unidad": "unidad",
       "categoria": "hierbas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Estragon.png"
     },
     {
       "id": 54,
-      "nombre": "Flor comestible (65unid)",
+      "nombre": "Flor Comestible (65unid)",
       "unidad": "caja",
       "categoria": "especiales",
-      "linea": "premium",
+      "linea": "regular",
       "image": "assets/flores/flor-01.jpeg"
     },
     {
       "id": 55,
-      "nombre": "Flor comestible deshidratdas (65 unid)",
+      "nombre": "Flor Comestible Deshidratdas (65 Unid)",
       "unidad": "caja",
       "categoria": "especiales",
-      "linea": "premium",
+      "linea": "regular",
       "image": "assets/flores/flor-02.jpeg"
     },
     {
       "id": 56,
-      "nombre": "Flor de jamaica",
+      "nombre": "Flor De Jamaica",
       "unidad": "kilogramo",
       "categoria": "especiales",
       "linea": "regular",
@@ -426,23 +426,23 @@
     },
     {
       "id": 57,
-      "nombre": "Fresa bandeja 1kg",
+      "nombre": "Fresa Bandeja 1kg",
       "unidad": "bandeja",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Fresa-2048x1536.webp"
     },
     {
       "id": 58,
-      "nombre": "Frambuesa bandeja 125g",
+      "nombre": "Frambuesa Bandeja 125g",
       "unidad": "bandeja",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Frambuesa.jpg"
     },
     {
       "id": 59,
-      "nombre": "Frijol blanco bandeja",
+      "nombre": "Frijol Blanco Bandeja",
       "unidad": "bandeja",
       "categoria": "legumbres",
       "linea": "regular",
@@ -450,7 +450,7 @@
     },
     {
       "id": 60,
-      "nombre": "Frijol cubaces",
+      "nombre": "Frijol Cubaces",
       "unidad": "kilogramo",
       "categoria": "legumbres",
       "linea": "regular",
@@ -458,15 +458,15 @@
     },
     {
       "id": 61,
-      "nombre": "Frijol nacido bandeja",
+      "nombre": "Frijol Nacido Bandeja",
       "unidad": "unidad",
       "categoria": "legumbres",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Frijol-Nacido.webp"
     },
     {
       "id": 62,
-      "nombre": "Frijoles tiernos",
+      "nombre": "Frijoles Tiernos",
       "unidad": "kilogramo",
       "categoria": "legumbres",
       "linea": "regular",
@@ -474,7 +474,7 @@
     },
     {
       "id": 63,
-      "nombre": "Garbanzos paquete 1kg",
+      "nombre": "Garbanzos Paquete 1kg",
       "unidad": "kilogramo",
       "categoria": "legumbres",
       "linea": "regular",
@@ -485,7 +485,7 @@
       "nombre": "Granadilla",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Granadilla.png"
     },
     {
@@ -493,12 +493,12 @@
       "nombre": "Guanábana",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Guanabana.jpg"
     },
     {
       "id": 66,
-      "nombre": "Guayaba china",
+      "nombre": "Guayaba China",
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
@@ -514,31 +514,31 @@
     },
     {
       "id": 69,
-      "nombre": "Hinojo bandeja",
+      "nombre": "Hinojo Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hinojo-1440x1080.jpg"
     },
     {
       "id": 70,
-      "nombre": "Hongo ostra bandeja 200g",
+      "nombre": "Hongo Ostra Bandeja 200g",
       "unidad": "bandeja",
       "categoria": "hongos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongo-Ostra.png"
     },
     {
       "id": 71,
-      "nombre": "Hongos crimini bandeja 200g",
+      "nombre": "Hongos Crimini Bandeja 200g",
       "unidad": "bandeja",
       "categoria": "hongos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Crimini.jpg"
     },
     {
       "id": 72,
-      "nombre": "Hongos enteros bandeja 250g",
+      "nombre": "Hongos Enteros Bandeja 250g",
       "unidad": "bandeja",
       "categoria": "hongos",
       "linea": "regular",
@@ -546,15 +546,15 @@
     },
     {
       "id": 73,
-      "nombre": "Hongos portobello bandeja 250g",
+      "nombre": "Hongos Portobello Bandeja 250g",
       "unidad": "bandeja",
       "categoria": "hongos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Portobello-1536x1024.webp"
     },
     {
       "id": 74,
-      "nombre": "Hoja de laurel cartón",
+      "nombre": "Hoja De Laurel Cartón",
       "unidad": "unidad",
       "categoria": "hierbas",
       "linea": "regular",
@@ -562,7 +562,7 @@
     },
     {
       "id": 75,
-      "nombre": "Hoja para tamal",
+      "nombre": "Hoja Para Tamal",
       "unidad": "kilogramo",
       "categoria": "hojas",
       "linea": "regular",
@@ -589,7 +589,7 @@
       "nombre": "Kale 100g",
       "unidad": "unidad",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Kale.png"
     },
     {
@@ -597,12 +597,12 @@
       "nombre": "Kiwi",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Kiwi-1536x1028.webp"
     },
     {
       "id": 80,
-      "nombre": "Lechuga americana",
+      "nombre": "Lechuga Americana",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
@@ -610,7 +610,7 @@
     },
     {
       "id": 81,
-      "nombre": "Lechuga escarola",
+      "nombre": "Lechuga Escarola",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
@@ -618,7 +618,7 @@
     },
     {
       "id": 82,
-      "nombre": "Lechuga iceberg",
+      "nombre": "Lechuga Iceberg",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
@@ -626,23 +626,23 @@
     },
     {
       "id": 83,
-      "nombre": "Lechuga lolorosa red",
+      "nombre": "Lechuga Lolorosa Red",
       "unidad": "unidad",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/lechuga-lollarosa.png"
     },
     {
       "id": 84,
-      "nombre": "Lechuga radicchio bandeja",
+      "nombre": "Lechuga Radicchio Bandeja",
       "unidad": "bandeja",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/lechuga-radichio.png"
     },
     {
       "id": 85,
-      "nombre": "Lechuga romana",
+      "nombre": "Lechuga Romana",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
@@ -650,7 +650,7 @@
     },
     {
       "id": 86,
-      "nombre": "Lentejas paquete 1kg",
+      "nombre": "Lentejas Paquete 1kg",
       "unidad": "kilogramo",
       "categoria": "legumbres",
       "linea": "regular",
@@ -658,15 +658,15 @@
     },
     {
       "id": 87,
-      "nombre": "Limón mandarina",
+      "nombre": "Limón Mandarina",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/limon-mandarina.png"
     },
     {
       "id": 88,
-      "nombre": "Limón mesino",
+      "nombre": "Limón Mesino",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -682,15 +682,15 @@
     },
     {
       "id": 90,
-      "nombre": "Mandarina importada",
+      "nombre": "Mandarina Importada",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Mandarina-1210x1080.webp"
     },
     {
       "id": 91,
-      "nombre": "Mandarina nacional",
+      "nombre": "Mandarina Nacional",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -698,7 +698,7 @@
     },
     {
       "id": 92,
-      "nombre": "Mango maduro",
+      "nombre": "Mango Maduro",
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
@@ -706,7 +706,7 @@
     },
     {
       "id": 93,
-      "nombre": "Mango verde",
+      "nombre": "Mango Verde",
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
@@ -714,26 +714,26 @@
     },
     {
       "id": 94,
-      "nombre": "Manzana gala",
+      "nombre": "Manzana Gala",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Manzana-Gala.png"
     },
     {
       "id": 95,
-      "nombre": "Manzana roja",
+      "nombre": "Manzana Roja",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Manzana-Roja.jpg"
     },
     {
       "id": 96,
-      "nombre": "Manzana verde",
+      "nombre": "Manzana Verde",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Manzana-Verde.png"
     },
     {
@@ -746,7 +746,7 @@
     },
     {
       "id": 98,
-      "nombre": "Maracuyá congelada",
+      "nombre": "Maracuyá Congelada",
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
@@ -757,7 +757,7 @@
       "nombre": "Melocotón",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Melocoton.jpg"
     },
     {
@@ -770,15 +770,15 @@
     },
     {
       "id": 101,
-      "nombre": "Microgreen bandeja",
+      "nombre": "Microgreen Bandeja",
       "unidad": "bandeja",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Microgreen.webp"
     },
     {
       "id": 102,
-      "nombre": "Menta rollito",
+      "nombre": "Menta Rollito",
       "unidad": "unidad",
       "categoria": "hierbas",
       "linea": "regular",
@@ -786,66 +786,66 @@
     },
     {
       "id": 103,
-      "nombre": "Miel de abeja botella",
+      "nombre": "Miel De Abeja Botella",
       "unidad": "unidad",
       "categoria": "despensa",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Miel-De-Abeja.jpg"
     },
     {
       "id": 104,
-      "nombre": "Mini chilote bandeja pelado",
+      "nombre": "Mini Chilote Bandeja Pelado",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mini-chilote-bandeja.png"
     },
     {
       "id": 105,
-      "nombre": "Mini escalopín verde",
+      "nombre": "Mini Escalopín Verde",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Escalopin.jpg"
     },
     {
       "id": 106,
-      "nombre": "Mini escalopín amarillo",
+      "nombre": "Mini Escalopín Amarillo",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/escalopin-amarillo.png"
     },
     {
       "id": 107,
-      "nombre": "Mini vainica 400g",
+      "nombre": "Mini Vainica 400g",
       "unidad": "bandeja",
       "categoria": "legumbres",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Vainica-2048x2048.webp"
     },
     {
       "id": 108,
-      "nombre": "Mini vegetales bandeja",
+      "nombre": "Mini Vegetales Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mini-vegetales-mixtos-empacado-3-26209.png"
     },
     {
       "id": 109,
-      "nombre": "Mini zanahoria bandeja",
+      "nombre": "Mini Zanahoria Bandeja",
       "unidad": "bandeja",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/zanahoria-baby-empacado-250gr-1-32153.png"
     },
     {
       "id": 110,
-      "nombre": "Mini zucchinis bandeja",
+      "nombre": "Mini Zucchinis Bandeja",
       "unidad": "bandeja",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mini-zucchinis.png"
     },
     {
@@ -858,23 +858,23 @@
     },
     {
       "id": 112,
-      "nombre": "Mora brasso (250g)",
+      "nombre": "Mora Brasso (250g)",
       "unidad": "bandeja",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Mora-Brasso.jpg"
     },
     {
       "id": 113,
-      "nombre": "Mostaza china",
+      "nombre": "Mostaza China",
       "unidad": "unidad",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Mostaza.png"
     },
     {
       "id": 114,
-      "nombre": "Nabo blanco",
+      "nombre": "Nabo Blanco",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -882,15 +882,15 @@
     },
     {
       "id": 115,
-      "nombre": "Naranja importada",
+      "nombre": "Naranja Importada",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Naranja-2048x1536.webp"
     },
     {
       "id": 116,
-      "nombre": "Naranja nacional",
+      "nombre": "Naranja Nacional",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -901,7 +901,7 @@
       "nombre": "Naranjilla",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Naranjilla.webp"
     },
     {
@@ -909,7 +909,7 @@
       "nombre": "Nectarina",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Nectarina.png"
     },
     {
@@ -922,7 +922,7 @@
     },
     {
       "id": 120,
-      "nombre": "Orégano rollo",
+      "nombre": "Orégano Rollo",
       "unidad": "rollo",
       "categoria": "hierbas",
       "linea": "regular",
@@ -930,23 +930,23 @@
     },
     {
       "id": 121,
-      "nombre": "Pak choi",
+      "nombre": "Pak Choi",
       "unidad": "rollo",
       "categoria": "hojas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pak-Choy-1080x1080.webp"
     },
     {
       "id": 122,
-      "nombre": "Palmito tallo",
+      "nombre": "Palmito Tallo",
       "unidad": "kilogramo",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Palmito-1080x1080.webp"
     },
     {
       "id": 123,
-      "nombre": "Papa amarilla",
+      "nombre": "Papa Amarilla",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -954,7 +954,7 @@
     },
     {
       "id": 124,
-      "nombre": "Papa blanca",
+      "nombre": "Papa Blanca",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -962,15 +962,15 @@
     },
     {
       "id": 125,
-      "nombre": "Papa mini",
+      "nombre": "Papa Mini",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/papa-mini.png"
     },
     {
       "id": 126,
-      "nombre": "Papa roja",
+      "nombre": "Papa Roja",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
       "linea": "regular",
@@ -986,7 +986,7 @@
     },
     {
       "id": 128,
-      "nombre": "Pejibaye crudo",
+      "nombre": "Pejibaye Crudo",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -1005,28 +1005,28 @@
       "nombre": "Pera",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pera.webp"
     },
     {
       "id": 131,
-      "nombre": "Pera fiorella",
+      "nombre": "Pera Fiorella",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pera-Fiorella.png"
     },
     {
       "id": 132,
-      "nombre": "Perejil italiano rollo",
+      "nombre": "Perejil Italiano Rollo",
       "unidad": "rollo",
       "categoria": "hierbas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Perejil.webp"
     },
     {
       "id": 133,
-      "nombre": "Perejil rollo",
+      "nombre": "Perejil Rollo",
       "unidad": "rollo",
       "categoria": "hierbas",
       "linea": "regular",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": 134,
-      "nombre": "Piña primera",
+      "nombre": "Piña Primera",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -1042,23 +1042,23 @@
     },
     {
       "id": 135,
-      "nombre": "Pipas sin cáscara",
+      "nombre": "Pipas Sin Cáscara",
       "unidad": "unidad",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pipas-Sin-Cascara.webp"
     },
     {
       "id": 136,
-      "nombre": "Pitahaya congelada",
+      "nombre": "Pitahaya Congelada",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pitahaya.jpg"
     },
     {
       "id": 137,
-      "nombre": "Plátano maduro",
+      "nombre": "Plátano Maduro",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": 138,
-      "nombre": "Plátano verde",
+      "nombre": "Plátano Verde",
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
@@ -1074,10 +1074,10 @@
     },
     {
       "id": 139,
-      "nombre": "Puerro verde",
+      "nombre": "Puerro Verde",
       "unidad": "unidad",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Puerro.png"
     },
     {
@@ -1090,10 +1090,10 @@
     },
     {
       "id": 141,
-      "nombre": "Rabanito mini",
+      "nombre": "Rabanito Mini",
       "unidad": "kilogramo",
       "categoria": "tuberculos",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Rabanito.png"
     },
     {
@@ -1114,7 +1114,7 @@
     },
     {
       "id": 144,
-      "nombre": "Repollo morado",
+      "nombre": "Repollo Morado",
       "unidad": "kilogramo",
       "categoria": "hojas",
       "linea": "regular",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": 145,
-      "nombre": "Repollo verde",
+      "nombre": "Repollo Verde",
       "unidad": "kilogramo",
       "categoria": "hojas",
       "linea": "regular",
@@ -1138,15 +1138,15 @@
     },
     {
       "id": 148,
-      "nombre": "Salvia rollo",
+      "nombre": "Salvia Rollo",
       "unidad": "rollo",
       "categoria": "hierbas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Salvia.webp"
     },
     {
       "id": 149,
-      "nombre": "Sandía primera",
+      "nombre": "Sandía Primera",
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
@@ -1162,7 +1162,7 @@
     },
     {
       "id": 151,
-      "nombre": "Tapa dulce",
+      "nombre": "Tapa Dulce",
       "unidad": "unidad",
       "categoria": "despensa",
       "linea": "regular",
@@ -1178,23 +1178,23 @@
     },
     {
       "id": 153,
-      "nombre": "Tomate cherry amarillo",
+      "nombre": "Tomate Cherry Amarillo",
       "unidad": "kilogramo",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/tomate-cherry-amarillo.png"
     },
     {
       "id": 154,
-      "nombre": "Tomate cherry rojo",
+      "nombre": "Tomate Cherry Rojo",
       "unidad": "kilogramo",
       "categoria": "verduras",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Tomate-Cherry-scaled.jpg"
     },
     {
       "id": 155,
-      "nombre": "Tomate mexicano",
+      "nombre": "Tomate Mexicano",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": 156,
-      "nombre": "Tomate pera",
+      "nombre": "Tomate Pera",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -1210,7 +1210,7 @@
     },
     {
       "id": 157,
-      "nombre": "Tomate primera",
+      "nombre": "Tomate Primera",
       "unidad": "kilogramo",
       "categoria": "verduras",
       "linea": "regular",
@@ -1234,42 +1234,42 @@
     },
     {
       "id": 161,
-      "nombre": "Uchuva cáscara",
+      "nombre": "Uchuva Cáscara",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Cascara-Uchuva-1536x1024.webp"
     },
     {
       "id": 162,
-      "nombre": "Uchuvas bandeja 200g",
+      "nombre": "Uchuvas Bandeja 200g",
       "unidad": "bandeja",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Uchuva.png"
     },
     {
       "id": 163,
-      "nombre": "Uvas globo",
+      "nombre": "Uvas Globo",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Uvas-Globo-1080x1080.webp"
     },
     {
       "id": 164,
-      "nombre": "Uvas negras",
+      "nombre": "Uvas Negras",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Uvas-Negras.webp"
     },
     {
       "id": 165,
-      "nombre": "Uvas verdes",
+      "nombre": "Uvas Verdes",
       "unidad": "kilogramo",
       "categoria": "frutas",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Uvas-Verdes.png"
     },
     {
@@ -1290,7 +1290,7 @@
     },
     {
       "id": 168,
-      "nombre": "Zacate de limón",
+      "nombre": "Zacate De Limón",
       "unidad": "kilogramo",
       "categoria": "hierbas",
       "linea": "regular",
@@ -1314,82 +1314,82 @@
     },
     {
       "id": 171,
-      "nombre": "Hongo champiñón",
+      "nombre": "Hongo Champiñón",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Enteros.jpg"
     },
     {
       "id": 172,
-      "nombre": "Hongo champiñón rebanado",
+      "nombre": "Hongo Champiñón Rebanado",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/hongo-rebanado.png"
     },
     {
       "id": 173,
-      "nombre": "Hongo portobello",
+      "nombre": "Hongo Portobello",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Portobello-1536x1024.webp"
     },
     {
       "id": 174,
-      "nombre": "Hongo cremini o crimini",
+      "nombre": "Hongo Cremini O Crimini",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Crimini.jpg"
     },
     {
       "id": 175,
-      "nombre": "Hongo shiitake",
+      "nombre": "Hongo Shiitake",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/hongo-shiitake.png"
     },
     {
       "id": 176,
-      "nombre": "Hongo melena de león",
+      "nombre": "Hongo Melena De León",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/melena-de-leon.png"
     },
     {
       "id": 177,
-      "nombre": "Hongo ostra",
+      "nombre": "Hongo Ostra",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongo-Ostra.png"
     },
     {
       "id": 178,
-      "nombre": "Hongo enoki",
+      "nombre": "Hongo Enoki",
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Hongos-Enteros.jpg"
     },
     {
       "id": 179,
-      "nombre": "Albahaca morada",
+      "nombre": "Albahaca Morada",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/albahaca-morada.png"
     },
     {
       "id": 180,
-      "nombre": "Albahaca verde",
+      "nombre": "Albahaca Verde",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Albahaca-1080x1080.webp"
     },
     {
@@ -1397,7 +1397,7 @@
       "nombre": "Amaranthus Red",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Microgreen.webp"
     },
     {
@@ -1405,7 +1405,7 @@
       "nombre": "Apio",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Apio-1-1080x1080.webp"
     },
     {
@@ -1413,7 +1413,7 @@
       "nombre": "Arúgula",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Arugula.png"
     },
     {
@@ -1421,7 +1421,7 @@
       "nombre": "Brócoli",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Brocoli-1.jpg"
     },
     {
@@ -1429,7 +1429,7 @@
       "nombre": "Culantro",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Culantro-Castilla.jpg"
     },
     {
@@ -1437,7 +1437,7 @@
       "nombre": "Mizuna",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Microgreen.webp"
     },
     {
@@ -1445,7 +1445,7 @@
       "nombre": "Mostaza Green Mizuna",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mostaza-verde.jpg"
     },
     {
@@ -1453,7 +1453,7 @@
       "nombre": "Mostaza Red",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mostaza-roja.jpg"
     },
     {
@@ -1461,7 +1461,7 @@
       "nombre": "Mostaza Red Mizuna",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/mizuna-roja.jpg"
     },
     {
@@ -1469,7 +1469,7 @@
       "nombre": "Rábano",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Rabano.png"
     },
     {
@@ -1477,7 +1477,7 @@
       "nombre": "Remolacha",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Remolacha-1080x1080.webp"
     },
     {
@@ -1485,7 +1485,7 @@
       "nombre": "Tatsoi",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Microgreen.webp"
     },
     {
@@ -1493,12 +1493,12 @@
       "nombre": "Zanahoria",
       "unidad": "bandeja",
       "categoria": "microgreens",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Zanahoria-2048x2048.jpg"
     },
     {
       "id": 194,
-      "nombre": "Banano maduro",
+      "nombre": "Banano Maduro",
       "unidad": "kilogramo",
       "categoria": "congelados",
       "linea": "regular",
@@ -1517,7 +1517,7 @@
       "nombre": "Pitahaya",
       "unidad": "kilogramo",
       "categoria": "congelados",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Pitahaya.jpg"
     },
     {
@@ -1525,12 +1525,12 @@
       "nombre": "Fresa",
       "unidad": "kilogramo",
       "categoria": "congelados",
-      "linea": "premium",
+      "linea": "regular",
       "image": "Productos/Fresa-2048x1536.webp"
     },
     {
       "id": 198,
-      "nombre": "Mezcla de frutas tropicales",
+      "nombre": "Mezcla De Frutas Tropicales",
       "unidad": "kilogramo",
       "categoria": "congelados",
       "linea": "regular",
@@ -1543,6 +1543,166 @@
       "categoria": "congelados",
       "linea": "regular",
       "image": "Productos/Mango-1536x776.jpg"
+    },
+    {
+      "id": 200,
+      "nombre": "Mix Verde",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/mix-verde-1.jpg"
+    },
+    {
+      "id": 201,
+      "nombre": "Lechuga Romana",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/lechuga-romana-2.jpg"
+    },
+    {
+      "id": 202,
+      "nombre": "Lechuga Americana",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/lechuga-americana-1.jpg"
+    },
+    {
+      "id": 203,
+      "nombre": "Eneldo",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/eneldo-1.jpg"
+    },
+    {
+      "id": 204,
+      "nombre": "Arugula",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/arugula-1.jpg"
+    },
+    {
+      "id": 205,
+      "nombre": "Kale",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/kale-1.jpg"
+    },
+    {
+      "id": 206,
+      "nombre": "Pak Choi",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/pak-choi-1.jpg"
+    },
+    {
+      "id": 207,
+      "nombre": "Acelgas",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/acelgas-1.jpg"
+    },
+    {
+      "id": 208,
+      "nombre": "Romero",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/romero-1.jpg"
+    },
+    {
+      "id": 209,
+      "nombre": "Arugula Baby",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/arugula-baby-1.jpg"
+    },
+    {
+      "id": 210,
+      "nombre": "Albahaca",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/albahaca-1.jpg"
+    },
+    {
+      "id": 211,
+      "nombre": "Espinaca",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/espinaca-1.jpg"
+    },
+    {
+      "id": 212,
+      "nombre": "Hierbabuena",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/hierbabuena-1.jpg"
+    },
+    {
+      "id": 213,
+      "nombre": "Tomillo",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/tomillo-1.jpg"
+    },
+    {
+      "id": 214,
+      "nombre": "Perejil Criollo",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/perejil-criollo-1.jpg"
+    },
+    {
+      "id": 215,
+      "nombre": "Perejil Italiano",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/perejil-italiano-1.jpg"
+    },
+    {
+      "id": 216,
+      "nombre": "Salvia",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/salvia-1.jpg"
+    },
+    {
+      "id": 217,
+      "nombre": "Estragón",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/estragon-1.jpg"
+    },
+    {
+      "id": 218,
+      "nombre": "Orégano",
+      "unidad": "kilogramo",
+      "categoria": "hierbas",
+      "linea": "premium",
+      "image": "assets/premium/oregano-1.jpg"
+    },
+    {
+      "id": 219,
+      "nombre": "Lechuga Olorosa",
+      "unidad": "unidad",
+      "categoria": "hojas",
+      "linea": "premium",
+      "image": "assets/premium/lechuga-olorosa-1.jpg"
     }
   ]
 }

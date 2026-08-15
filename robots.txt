@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Add an absolute Sitemap URL here when the production domain is set, for example:
+# Sitemap: https://www.example.com/sitemap.xml
