@@ -806,7 +806,7 @@
       "unidad": "bandeja",
       "categoria": "verduras",
       "linea": "regular",
-      "image": "Productos/Escalopin.jpg"
+      "image": "Productos/escalopin-verde.webp"
     },
     {
       "id": 106,
@@ -854,7 +854,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Mora-1024x791.webp"
+      "image": "Productos/mora-silvestre.webp"
     },
     {
       "id": 112,
@@ -870,7 +870,7 @@
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "regular",
-      "image": "Productos/Mostaza.png"
+      "image": "Productos/mostaza-china.webp"
     },
     {
       "id": 114,
@@ -1046,7 +1046,7 @@
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Pipas-Sin-Cascara.webp"
+      "image": "Productos/pipa-sin-cascara.webp"
     },
     {
       "id": 136,
@@ -1054,7 +1054,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/Pitahaya.jpg"
+      "image": "Productos/pitahaya-congelada.webp"
     },
     {
       "id": 137,
@@ -1086,15 +1086,7 @@
       "unidad": "unidad",
       "categoria": "tuberculos",
       "linea": "regular",
-      "image": "Productos/Rabanito.png"
-    },
-    {
-      "id": 141,
-      "nombre": "Rabanito Mini",
-      "unidad": "kilogramo",
-      "categoria": "tuberculos",
-      "linea": "regular",
-      "image": "Productos/Rabanito.png"
+      "image": "Productos/rabanito.webp"
     },
     {
       "id": 142,
@@ -1358,7 +1350,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "regular",
-      "image": "Productos/melena-de-leon.png"
+      "image": "Productos/hongo-melena-de-leon.webp"
     },
     {
       "id": 177,
@@ -1534,7 +1526,7 @@
       "unidad": "kilogramo",
       "categoria": "congelados",
       "linea": "regular",
-      "image": "Productos/Frutas2-1080x1080.png"
+      "image": "Productos/mezcla-de-frutas-tropicales.webp"
     },
     {
       "id": 199,
@@ -1638,7 +1630,7 @@
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "premium",
-      "image": "assets/premium/espinaca-1.jpg"
+      "image": "Productos/espinaca.webp"
     },
     {
       "id": 212,
