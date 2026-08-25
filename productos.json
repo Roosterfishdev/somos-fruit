@@ -1374,7 +1374,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/albahaca-morada.png"
+      "image": "assets/microgreens/albahaca-microgreens.webp"
     },
     {
       "id": 180,
@@ -1382,7 +1382,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Albahaca-1080x1080.webp"
+      "image": "assets/microgreens/albahaca microgreen.webp"
     },
     {
       "id": 181,
@@ -1390,7 +1390,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Microgreen.webp"
+      "image": "assets/microgreens/Red_Amaranthus_Microgreens.webp"
     },
     {
       "id": 182,
@@ -1398,7 +1398,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Apio-1-1080x1080.webp"
+      "image": "assets/microgreens/microgreen-apio.webp"
     },
     {
       "id": 183,
@@ -1406,7 +1406,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Arugula.png"
+      "image": "assets/microgreens/microgreen-arugular.webp"
     },
     {
       "id": 184,
@@ -1414,7 +1414,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Brocoli-1.jpg"
+      "image": "assets/microgreens/Microgreen-brocoli.webp"
     },
     {
       "id": 185,
@@ -1422,7 +1422,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Culantro-Castilla.jpg"
+      "image": "assets/microgreens/microgreen-culantro.webp"
     },
     {
       "id": 186,
@@ -1430,7 +1430,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Microgreen.webp"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 187,
@@ -1438,7 +1438,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/mostaza-verde.jpg"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 188,
@@ -1446,7 +1446,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/mostaza-roja.jpg"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 189,
@@ -1454,7 +1454,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/mizuna-roja.jpg"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 190,
@@ -1462,7 +1462,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Rabano.png"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 191,
@@ -1470,7 +1470,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Remolacha-1080x1080.webp"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 192,
@@ -1478,7 +1478,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Microgreen.webp"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 193,
@@ -1486,7 +1486,7 @@
       "unidad": "bandeja",
       "categoria": "microgreens",
       "linea": "regular",
-      "image": "Productos/Zanahoria-2048x2048.jpg"
+      "image": "assets/microgreens/micro-greens-varios.webp"
     },
     {
       "id": 194,

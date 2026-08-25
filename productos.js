@@ -57,6 +57,7 @@ function renderProducts() {
       <div class="product-card__image">
         <img src="${product.image}" alt="${product.nombre}" loading="lazy" decoding="async" />
         ${product.linea === "premium" ? '<span class="product-card__badge">Premium</span>' : ""}
+        ${product.categoria === "microgreens" ? '<span class="product-card__badge">MICROGREEN</span>' : ""}
       </div>
       <div class="product-card__body">
         <h3 class="product-card__name">${product.nombre}</h3>
