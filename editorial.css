@@ -552,6 +552,21 @@
   object-fit: cover;
 }
 
+.ed-variety__tag {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 2;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--orange);
+  color: var(--green-deep);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .ed-variety figcaption {
   position: relative;
   z-index: 1;
