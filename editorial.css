@@ -106,6 +106,243 @@
   }
 }
 
+/* ——— Flores orbit hero ——— */
+.ed-intro--orbit .ed-intro__grid {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.2fr);
+  align-items: center;
+}
+
+.ed-orbit {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+
+.ed-orbit__stage {
+  position: absolute;
+  inset: 12%;
+  overflow: visible;
+  background: #fff;
+}
+
+.ed-orbit__spin {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  animation: ed-orbit-spin 48s linear infinite;
+  will-change: transform;
+}
+
+.ed-orbit__tags {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  pointer-events: none;
+}
+
+.ed-orbit__tag {
+  position: absolute;
+  z-index: 2;
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  border: 2px solid currentColor;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.92);
+  animation: ed-orbit-tag-in 0.55s ease forwards;
+  animation-delay: calc(var(--i) * 0.55s + 0.35s);
+}
+
+.ed-orbit__tag[data-pos="fucsias"] {
+  top: 4%;
+  left: 68%;
+  background: #fde2ef;
+  color: #b44d7a;
+}
+
+.ed-orbit__tag[data-pos="torenias"] {
+  top: 16%;
+  left: 90%;
+  background: #ece4fb;
+  color: #6d5aa8;
+}
+
+.ed-orbit__tag[data-pos="margaritas"] {
+  top: 38%;
+  left: 98%;
+  background: #fff3c9;
+  color: #9a7a1f;
+}
+
+.ed-orbit__tag[data-pos="dianthus"] {
+  top: 64%;
+  left: 94%;
+  background: #f8d6de;
+  color: #9a3d55;
+}
+
+.ed-orbit__tag[data-pos="cosmos"] {
+  top: 90%;
+  left: 58%;
+  background: #ffe2c8;
+  color: #c25a1a;
+}
+
+.ed-orbit__tag[data-pos="pensamientos"] {
+  top: 88%;
+  left: 18%;
+  background: #e8f3c9;
+  color: #6a7d2c;
+}
+
+.ed-orbit__tag[data-pos="estragon"] {
+  top: 62%;
+  left: 2%;
+  background: #d8f0e4;
+  color: #2f7a58;
+}
+
+.ed-orbit__tag[data-pos="mariposas"] {
+  top: 36%;
+  left: 0%;
+  background: #dce9fb;
+  color: #3d6cb0;
+}
+
+.ed-orbit__tag[data-pos="violas"] {
+  top: 12%;
+  left: 14%;
+  background: #e7ddf8;
+  color: #6b4c9a;
+}
+
+@keyframes ed-orbit-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes ed-orbit-tag-in {
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (max-width: 900px) {
+  .ed-intro--orbit .ed-intro__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ed-orbit {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 640px) {
+  .ed-orbit {
+    aspect-ratio: auto;
+    max-width: 280px;
+  }
+
+  .ed-orbit__stage {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: visible;
+  }
+
+  .ed-orbit__tags {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    pointer-events: auto;
+  }
+
+  .ed-orbit__tag {
+    position: static;
+    transform: scale(0.92);
+    animation-name: ed-orbit-tag-in-stack;
+  }
+}
+
+@keyframes ed-orbit-tag-in-stack {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ——— Flores full-width looping film ——— */
+.ed-film {
+  --film-cols: 5;
+  --film-gap: 0.75rem;
+  background: var(--white);
+  padding: 0 0 var(--padding-y);
+}
+
+.ed-film__mask {
+  overflow: hidden;
+  width: 100%;
+}
+
+.ed-film__track {
+  display: flex;
+  width: max-content;
+  gap: var(--film-gap);
+  animation: ed-film-loop 42s linear infinite;
+}
+
+.ed-film__set {
+  display: flex;
+  gap: var(--film-gap);
+  flex: 0 0 auto;
+}
+
+.ed-film__item {
+  margin: 0;
+  flex: 0 0 calc((100vw - (var(--film-gap) * (var(--film-cols) - 1))) / var(--film-cols));
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #f4eadf;
+}
+
+.ed-film__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes ed-film-loop {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-50% - (var(--film-gap) / 2))); }
+}
+
+@media (max-width: 900px) {
+  .ed-film {
+    --film-cols: 3;
+  }
+}
+
+@media (max-width: 640px) {
+  .ed-film {
+    --film-cols: 2;
+    --film-gap: 0.5rem;
+  }
+}
+
 /* ——— Quote band ——— */
 .ed-quote {
   background: #f4eadf;
@@ -673,5 +910,22 @@
 @media (prefers-reduced-motion: reduce) {
   .prod-slider__track {
     transition: none;
+  }
+
+  .ed-orbit__spin,
+  .ed-film__track {
+    animation: none;
+  }
+
+  .ed-orbit__tag {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  @media (max-width: 640px) {
+    .ed-orbit__tag {
+      transform: none;
+    }
   }
 }
