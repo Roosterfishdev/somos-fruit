@@ -838,7 +838,7 @@
       "unidad": "bandeja",
       "categoria": "tuberculos",
       "linea": "regular",
-      "image": "Productos/zanahoria-baby-empacado-250gr-1-32153.png"
+      "image": "Productos/mini-zanahorias.png"
     },
     {
       "id": 110,
@@ -1046,7 +1046,7 @@
       "unidad": "unidad",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/pipa-sin-cascara.webp"
+      "image": "Productos/pipa-sin-cascara.jpg"
     },
     {
       "id": 136,
@@ -1150,7 +1150,7 @@
       "unidad": "kilogramo",
       "categoria": "frutas",
       "linea": "regular",
-      "image": "Productos/tamarindo.png"
+      "image": "Productos/tamarindo.jpg"
     },
     {
       "id": 151,
@@ -1350,7 +1350,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "regular",
-      "image": "Productos/hongo-melena-de-leon.webp"
+      "image": "Productos/hongo-melena-de-leon.png"
     },
     {
       "id": 177,
@@ -1366,7 +1366,7 @@
       "unidad": "bandeja",
       "categoria": "hongos-gourmet",
       "linea": "regular",
-      "image": "Productos/Hongos-Enteros.jpg"
+      "image": "Productos/hongo-enoki.jpg"
     },
     {
       "id": 179,
@@ -1690,7 +1690,7 @@
     },
     {
       "id": 219,
-      "nombre": "Lechuga Olorosa",
+      "nombre": "Lolorosa",
       "unidad": "unidad",
       "categoria": "hojas",
       "linea": "premium",
